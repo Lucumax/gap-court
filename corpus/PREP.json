@@ -1,0 +1,3081 @@
+{
+ "version": 1,
+ "docs": {
+  "G7": {
+   "path": "corpus/global/G7.md",
+   "raw_name": "m2521.pdf",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": false,
+    "drop_blank": true
+   },
+   "meta": [
+    [
+     "doc_id",
+     "G7"
+    ],
+    [
+     "instrument_id",
+     "US-OMB-M-25-21"
+    ],
+    [
+     "title",
+     "OMB Memorandum M-25-21, Accelerating Federal Use of AI through Innovation, Governance, and Public Trust: excerpt"
+    ],
+    [
+     "issuer",
+     "Executive Office of the President, Office of Management and Budget (Director Russell T. Vought)"
+    ],
+    [
+     "instrument_type",
+     "memorandum"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "US-federal"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "false"
+    ],
+    [
+     "source_url",
+     "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T14:13:17Z"
+    ],
+    [
+     "version",
+     "memorandum dated April 3, 2025 (25 pages)"
+    ],
+    [
+     "effective_date",
+     "2025-04-03 (issued); Section 4(a) requires documentation of minimum practices within 365 days of issuance, i.e. by 2026-04-03"
+    ],
+    [
+     "supersedes",
+     "OMB Memorandum M-24-10"
+    ],
+    [
+     "status",
+     "in force: still listed on the OMB memoranda index page read 2026-10-27, which runs to M-26-19; M-26-04 (2025-12-11) cites it as an operative directive; M-26-10 does not mention it"
+    ],
+    [
+     "terms_note",
+     "whitehouse.gov Copyright Policy page read 2026-10-27: \"Pursuant to federal law, government-produced materials appearing on this site are not copyright protected.\" (https://www.whitehouse.gov/copyright/)"
+    ],
+    [
+     "republish",
+     "yes"
+    ],
+    [
+     "sha256",
+     "0aab0aa4eaeac969ed93894d3940c5dc9d0b7377048171b164a439e8b9e49813"
+    ],
+    [
+     "extraction",
+     "pymupdf, text layer, pages indexed as printed (pdf page N = printed page N); text-layer defects retained as extracted (for example \"0MB\" for OMB, missing spaces, footnote text interleaved at page ends)"
+    ],
+    [
+     "provisions_included",
+     "Overview paragraph; Section 4 (Fostering Public Trust: 4(a) determining high-impact AI, waivers; 4(b) minimum risk management practices: pre-deployment testing, AI impact assessment, ongoing monitoring, human training, human oversight/intervention/accountability, remedies or appeals, feedback); Section 5 definitions of High-Impact AI and Significant Modification; Section 6 presumed high-impact purposes (includes benefits eligibility, item m)"
+    ],
+    [
+     "commencement_note",
+     "Issued 2025-04-03. Section 4(a)(i): within 365 days of issuance agencies must document implementation of the minimum practices for high-impact uses and be prepared to report to OMB; non-compliant use must be safely discontinued. Pilot programs meeting stated conditions are exempt."
+    ],
+    [
+     "scope_note",
+     "Binding on executive branch departments and agencies of the US federal government (intelligence community elements exempt from Sections 4(a) to (b)). Does not itself create a right to notice for individuals: the text read contains no general notice-of-AI-use requirement apart from pilot opt-in notice and an end-user feedback option; remedies or appeals apply \"when appropriate\"."
+    ],
+    [
+     "verification",
+     "agent-opened, not yet Walter-verified"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 1,
+     "delete": 4,
+     "insert": [
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "4dad4cf13fa548a2415697c14202e506f7eee97d21b2cc0e2de4a9a45bb6e02f",
+     "deleted_lines": 4
+    },
+    {
+     "at": 7,
+     "delete": 8,
+     "insert": [
+      "MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES",
+      "[...]",
+      "SUBJECT: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust"
+     ],
+     "class": "rewrite",
+     "delete_sha256": "b75886038383fbc49e263e48a36c0d4fede7d69056f8d7fcc6eec9769eeb16f9",
+     "deleted_lines": 8
+    },
+    {
+     "at": 26,
+     "delete": 473,
+     "insert": [
+      "Governance, Innovation, and Risk Management for Agency Use ofArtificial Intelligence.",
+      "",
+      "### Section 4"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "5f009a5101d2b97a569f03f9eb4e949377407be23a892b6b651c4668b6e89ccf",
+     "deleted_lines": 473
+    },
+    {
+     "at": 500,
+     "delete": 24,
+     "insert": [],
+     "class": "excerpt_selection",
+     "delete_sha256": "7c6ecf6c8f2255693f40c10c7e2245b4c3ac1ce8c739ddd079d03a9a89901073",
+     "deleted_lines": 24
+    },
+    {
+     "at": 540,
+     "delete": 1,
+     "insert": [
+      "13"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "ab26883b7d963cecd77bee361cb34c495ad2423968beabce86f54a5960c794f6",
+     "deleted_lines": 1
+    },
+    {
+     "at": 585,
+     "delete": 1,
+     "insert": [
+      "14"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "fa4139aea519a01459a00dc1f3307e9c6d8d016cf9794ee6eff0b8e0daf5389c",
+     "deleted_lines": 1
+    },
+    {
+     "at": 630,
+     "delete": 1,
+     "insert": [
+      "15"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "cf0eb12f371a790871ed93abd79781ab182f16f5a36d38895a19458fb7a71c8e",
+     "deleted_lines": 1
+    },
+    {
+     "at": 672,
+     "delete": 1,
+     "insert": [
+      "16"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "13f29ebe076bc606a142eb89378fd3073c0ca2dd4d3f707709a341fbbe07c449",
+     "deleted_lines": 1
+    },
+    {
+     "at": 715,
+     "delete": 41,
+     "insert": [
+      "17",
+      "",
+      "### Section 5",
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "71db74e3c11bda29d9605a8db06a16c9a9dc0a39e0d67e6f43277527ac1886ff",
+     "deleted_lines": 41
+    },
+    {
+     "at": 757,
+     "delete": 20,
+     "insert": [],
+     "class": "excerpt_selection",
+     "delete_sha256": "bcffcb0531657e949da6140e40d6254a2a5b8adbe9a49060238215dc712e52c6",
+     "deleted_lines": 20
+    },
+    {
+     "at": 786,
+     "delete": 6,
+     "insert": [
+      "sensitive or classified by the Federal Government.",
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "fc201958e5555f3a7b10d8195612bd96c89bd010273ede6423047d5c7c365131",
+     "deleted_lines": 6
+    },
+    {
+     "at": 793,
+     "delete": 6,
+     "insert": [],
+     "class": "excerpt_selection",
+     "delete_sha256": "4746531d21d677ad5c5388ecd88c930a2cfb0e59bfff87f7bf76153306c28a65",
+     "deleted_lines": 6
+    },
+    {
+     "at": 805,
+     "delete": 1,
+     "insert": [
+      "20",
+      "",
+      "### Section 6"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "c7fee3dd719180a66847709f73429630d01e4134fbe4207c422272a337b9a18b",
+     "deleted_lines": 1
+    },
+    {
+     "at": 856,
+     "delete": 1,
+     "insert": [
+      "21"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "be7bc1f31324d4c4ec95f181575f434bbb1b10a1be1b2279a23238c4da3d44da",
+     "deleted_lines": 1
+    },
+    {
+     "at": 865,
+     "delete": 125,
+     "insert": [
+      "22"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "609fcd4337d2f4a0753508d8addaa30320e876b83238a5bd6b82f01440f9fad5",
+     "deleted_lines": 125
+    }
+   ]
+  },
+  "U06": {
+   "path": "corpus_local/uae/U06.md",
+   "raw_name": "dubai_law26_2015_en.pdf",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": true,
+    "drop_blank": true,
+    "drop_regex": [
+     "^(Law No\\. \\(26\\) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai|Page \\d+ of 9)$"
+    ]
+   },
+   "meta": [
+    [
+     "doc_id",
+     "U06"
+    ],
+    [
+     "instrument_id",
+     "AE-DU-L-26-2015"
+    ],
+    [
+     "title",
+     "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai"
+    ],
+    [
+     "issuer",
+     "Ruler of Dubai (Mohammed bin Rashid Al Maktoum)"
+    ],
+    [
+     "instrument_type",
+     "law"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-DU"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "true"
+    ],
+    [
+     "source_url",
+     "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)"
+    ],
+    [
+     "effective_date",
+     "on the day of publication in the Official Gazette (Art. 21); gazette date not stated in the downloaded text"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: not repealed by Law No. 24 of 2023, Art. 20; Art. 6(5) and 6(17) of that law refer to it as operative)"
+    ],
+    [
+     "terms_note",
+     "link only; Dubai Legislation Portal terms (https://dlp.dubai.gov.ae/en/Pages/TermsAndConditions.aspx, read 2026-10-27): \"You may not, however, republish, retransmit, redistribute or otherwise make the material available to any other party [...] without the Supreme Legislation Committee express prior written consent.\""
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8"
+    ],
+    [
+     "extraction",
+     "pymupdf 1.28.0, text layer; page = printed 'Page N of 9'; running page header lines removed; definition tables extract with definition before term"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 16,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "11c2227b5e9116342ceabbc116af394924932c5a66ef68da1fd486da1ea7778f"
+    },
+    {
+     "at": 20,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8775bbb39cb0805e30a731b00808ae5b246fcde24b445f1734656bf34ac5e2af"
+    },
+    {
+     "at": 102,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "01c35f80ecc874a63c24f45d6ec0eb4ddb368815a40b452e5f7d9accd87ab9b8"
+    },
+    {
+     "at": 111,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "abb883e6201638a04f958e5ad207d79b78c5414026942969c1315babb6b59634"
+    },
+    {
+     "at": 137,
+     "delete": 0,
+     "insert": [
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "60b23483860082e1e52a4467d2813c535d803a3c74e8c39b8de4b650d39c55b0"
+    },
+    {
+     "at": 144,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b0f6424dfc2ced18acab653abb1809830c373b3b1a412ef870458548e043b7c7"
+    },
+    {
+     "at": 199,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "3f36bcd01ef1b06981aa42c2e5e8c2434f2065c398a9d3d3301a96b0d7b8921a"
+    },
+    {
+     "at": 206,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6d77c52be9bd7e1dcc0fc517aa07804b30c88063e4f3c564dbd6743d621b65d5"
+    },
+    {
+     "at": 211,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "71a95db7ae340b19919d75374748106e0d9f7062a0e8dc3421c3656c91834a2d"
+    },
+    {
+     "at": 227,
+     "delete": 0,
+     "insert": [
+      "### Article 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "ffdde27286e0485b8eaa94363d05f743d837d474c6146ad86b1e712ebd7b398e"
+    },
+    {
+     "at": 238,
+     "delete": 0,
+     "insert": [
+      "### Article 11"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0c1e53e22e9fbfe67a714f89be4d1cc1997023ba199e66ef83a952802490abd7"
+    },
+    {
+     "at": 259,
+     "delete": 0,
+     "insert": [
+      "### Article 12"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e4a78e976108e5b624760f01fe0ad9144a9dd48b61da669299c9b6c686bdc329"
+    },
+    {
+     "at": 266,
+     "delete": 0,
+     "insert": [
+      "### Article 13"
+     ],
+     "class": "structural_heading",
+     "expect_before": "107233bb5a1021d0f79104c4a1f91c1117c1b2ffe9d8f37fbca5601b3ee85466"
+    },
+    {
+     "at": 274,
+     "delete": 0,
+     "insert": [
+      "### Article 14"
+     ],
+     "class": "structural_heading",
+     "expect_before": "64b5b5a79e4fa1c18665b4fe80e0c53b1a15fdb212b9a8bab5bf0eee77644832"
+    },
+    {
+     "at": 279,
+     "delete": 0,
+     "insert": [
+      "### Article 15"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b947d0349096f7a647a9a04a7490b5917c970965dcdeeec14866b6289351f222"
+    },
+    {
+     "at": 285,
+     "delete": 0,
+     "insert": [
+      "### Article 16"
+     ],
+     "class": "structural_heading",
+     "expect_before": "444206375e2a9931b3ce97e7aaeb3ea960685ab2de3faa29bfb90969ef3da6a1"
+    },
+    {
+     "at": 292,
+     "delete": 0,
+     "insert": [
+      "### Article 17"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8ac00288a3d55ea5e3aad47d21dcf3c933b8a3d83712f85b6d5e71577f3b2dad"
+    },
+    {
+     "at": 298,
+     "delete": 0,
+     "insert": [
+      "### Article 18"
+     ],
+     "class": "structural_heading",
+     "expect_before": "a2aa5bbae409faab775607688d7898b8c9bf8851b39b9e9119839a6b98479763"
+    },
+    {
+     "at": 304,
+     "delete": 0,
+     "insert": [
+      "### Article 19"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6c910f4584f368e0ed99b2b9c9c33c946e9ccd7986c446daacb5db99e472e532"
+    },
+    {
+     "at": 308,
+     "delete": 0,
+     "insert": [
+      "### Article 20"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cf00d86289e5082b0673d3a4f5d6969bf766740b695ad813fa9222868f3d845b"
+    },
+    {
+     "at": 312,
+     "delete": 0,
+     "insert": [
+      "### Article 21"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c18253f378031b1d3cf92c5eb6d3408454ed0d0516d44628c568f822c65569a4"
+    }
+   ]
+  },
+  "U08": {
+   "path": "corpus_local/uae/U08.md",
+   "raw_name": "U08_checked_transcription.txt",
+   "extractor": "text_lines",
+   "options": {},
+   "meta": [
+    [
+     "doc_id",
+     "U08"
+    ],
+    [
+     "instrument_id",
+     "AE-FED-POL-DIGITAL-CUSTOMER-2021"
+    ],
+    [
+     "title",
+     "سياسة \"المتعامل الرقمي والخدمة الحكومية الرقمية\" (Digital Customer and Digital Government Service Policy); checked transcription, not the official text layer"
+    ],
+    [
+     "issuer",
+     "UAE Cabinet (policy adopted per Art. 2; copyright holder: Cabinet Office, Ministry of Cabinet Affairs); digital government function currently at TDRA per Art. 1"
+    ],
+    [
+     "instrument_type",
+     "policy"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-federal"
+    ],
+    [
+     "language",
+     "ar"
+    ],
+    [
+     "official_translation",
+     "false"
+    ],
+    [
+     "source_url",
+     "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "cover 'March 2021'; last page 'First edition 2020, Dubai'; PDF created 2021-10-14; u.ae page https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/government-services-and-digital-transformation/digital-customer-and-digital-government-service-policy says 'Arabic, PDF, 435 KB'"
+    ],
+    [
+     "effective_date",
+     "null"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: still listed on u.ae policy page updated 22 Oct 2026)"
+    ],
+    [
+     "terms_note",
+     "link only; last page of the PDF reserves all rights: \"© جميع الحقوق محفوظة لمكتب رئاسة مجلس الوزراء بوزارة شؤون مجلس الوزراء\" (Federal Law No. 7 of 2002 on copyright and neighbouring rights cited); link only; u.ae copyright page (https://u.ae/en/Footer/Copyright, read 2026-10-27): \"Any unauthorised use, reproduction or printing of the information and materials contained in this website, is strictly prohibited.\""
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "c585b8686fac0e91c93f88fef4279d2ecf36a248ab4070a039ef6a456453f39e"
+    ],
+    [
+     "text_basis",
+     "checked transcription, not the official text layer"
+    ],
+    [
+     "official_pdf_sha256",
+     "9bb60e43c2db6eb187c86caca1f59c64af3cb3cdc64c0b5bb487188495f448d0"
+    ],
+    [
+     "transcription_log",
+     "docs/INTERNAL_U08_CHECKED_TRANSCRIPTION_LOG.json (private, not exported); summary in docs/CORPUS_PROVENANCE.md"
+    ],
+    [
+     "extraction",
+     "checked transcription, not the official text layer: image transcription of each page (Codex, image only) merged with a deterministic lexicon-guided repair of the PDF text layer; every disagreement (8 image-transcription words, 4 repair words) resolved against the page image and logged; tashkeel and tatweel not kept; table rows as term TAB definition; image-only cover header and back-page handle left out; built 2026-11-09 by scripts/build_u08_checked.py; Article N headings added by the preparer"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 16,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "d1e047d4b7b2355336361a67705339734508b4304537034e6ba8a69bcd7d111d"
+    },
+    {
+     "at": 92,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "968c50174082996d903d6a7fc472736b4cbf3648667763aef69778dde8906d2f"
+    },
+    {
+     "at": 104,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4f61d24719d9a1ba6e676b7782d22e5232253380a8295f1ca07c19faf404535f"
+    },
+    {
+     "at": 106,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cf27d859d2a80f51c2901c031c8f75eb6529262c7a6ecdf0c98b24dc09f17270"
+    },
+    {
+     "at": 129,
+     "delete": 0,
+     "insert": [
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "80a96d43ba7767e768af71179438346d629b0f6338b70a854e1ade05428ca134"
+    },
+    {
+     "at": 161,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c17681c3b64413052e64f32701f2061a45144310b43b57587f9851bb3a2e0df1"
+    },
+    {
+     "at": 217,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b8f34e5286adb0f0fd8ca94b562da3868de48d44c8af28b65abd13eb26f79052"
+    },
+    {
+     "at": 221,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "410a103ed78eb36bb177b8647ffa7c2b33d11102c2ef90f8d2f6f6ac568217d2"
+    },
+    {
+     "at": 224,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1a03a525ff21c8918dd6722de16287ba95690513fa5a652528771009a6d0d5a1"
+    }
+   ],
+   "note": "private checked transcription (link-only licence), kept under corpus_local/_raw/U08 and listed in its SHA256SUMS.txt; when it is absent (a fresh clone) prepare --rebuild-all uses the fallback: the official PDF's text layer",
+   "fallback": {
+    "raw_name": "digital_customer_policy_ar_u.ae.pdf",
+    "extractor": "pymupdf_lines",
+    "options": {
+     "rstrip": true,
+     "drop_blank": true
+    },
+    "meta": [
+     [
+      "doc_id",
+      "U08"
+     ],
+     [
+      "instrument_id",
+      "AE-FED-POL-DIGITAL-CUSTOMER-2021"
+     ],
+     [
+      "title",
+      "سياسة \"المتعامل الرقمي والخدمة الحكومية الرقمية\" (Digital Customer and Digital Government Service Policy)"
+     ],
+     [
+      "issuer",
+      "UAE Cabinet (policy adopted per Art. 2; copyright holder: Cabinet Office, Ministry of Cabinet Affairs); digital government function currently at TDRA per Art. 1"
+     ],
+     [
+      "instrument_type",
+      "policy"
+     ],
+     [
+      "binding",
+      "true"
+     ],
+     [
+      "jurisdiction",
+      "AE-federal"
+     ],
+     [
+      "language",
+      "ar"
+     ],
+     [
+      "official_translation",
+      "false"
+     ],
+     [
+      "source_url",
+      "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66"
+     ],
+     [
+      "retrieved_at",
+      "2026-10-27T16:59:00Z"
+     ],
+     [
+      "version",
+      "cover 'March 2021'; last page 'First edition 2020, Dubai'; PDF created 2021-10-14; u.ae page https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/government-services-and-digital-transformation/digital-customer-and-digital-government-service-policy says 'Arabic, PDF, 435 KB'"
+     ],
+     [
+      "effective_date",
+      "null"
+     ],
+     [
+      "supersedes",
+      "null"
+     ],
+     [
+      "status",
+      "in force (inference: still listed on u.ae policy page updated 22 Oct 2026)"
+     ],
+     [
+      "terms_note",
+      "link only; last page of the PDF reserves all rights: \"© جميع الحقوق محفوظة لمكتب رئاسة مجلس الوزراء بوزارة شؤون مجلس الوزراء\" (Federal Law No. 7 of 2002 on copyright and neighbouring rights cited); link only; u.ae copyright page (https://u.ae/en/Footer/Copyright, read 2026-10-27): \"Any unauthorised use, reproduction or printing of the information and materials contained in this website, is strictly prohibited.\""
+     ],
+     [
+      "republish",
+      "link_only"
+     ],
+     [
+      "sha256",
+      "9bb60e43c2db6eb187c86caca1f59c64af3cb3cdc64c0b5bb487188495f448d0"
+     ],
+     [
+      "extraction",
+      "pymupdf 1.28.0, text layer, printed page numbers; Arabic ligature/hamza and RTL order defects kept verbatim; Article 1 heading absent from the text layer (definitions sit on pp. 3-4 before Article 2); Article N markers placed at the start of each article body, the extracted heading lines (pp. 5-7, 9) are kept where the text layer put them; text-layer order interleaves Art. 4.2 after 5.2.5 and 5.3 after 6.4.4"
+     ]
+    ],
+    "patch": [
+     {
+      "at": 133,
+      "delete": 0,
+      "insert": [
+       "### Article 2"
+      ],
+      "class": "structural_heading",
+      "expect_before": "0dc287d2bf119ea2bb01bab0039c217afe9acaa2b37a62e632bc38663b21e293"
+     },
+     {
+      "at": 149,
+      "delete": 0,
+      "insert": [
+       "### Article 3"
+      ],
+      "class": "structural_heading",
+      "expect_before": "1af05c01ce8834642ca26fcb1930233a55b322e487bb1004a1c22639b682d3df"
+     },
+     {
+      "at": 150,
+      "delete": 0,
+      "insert": [
+       "### Article 4"
+      ],
+      "class": "structural_heading",
+      "expect_before": "3965cb9aab260032052aaa7cd71708bd7c584ffca994b6173b138af35c4bc1f5"
+     },
+     {
+      "at": 170,
+      "delete": 0,
+      "insert": [
+       "### Article 5"
+      ],
+      "class": "structural_heading",
+      "expect_before": "1318f834fced312fee8345d1eadebe1a824212f1b95b635fceb4b6aa61c0e860"
+     },
+     {
+      "at": 198,
+      "delete": 0,
+      "insert": [
+       "### Article 4"
+      ],
+      "class": "structural_heading",
+      "expect_before": "b00b8400f4a612c5899ef068a3e4fb24bd10d25abc0af04811281e496324b258"
+     },
+     {
+      "at": 216,
+      "delete": 0,
+      "insert": [
+       "### Article 6"
+      ],
+      "class": "structural_heading",
+      "expect_before": "23e9936ef934a7f73648d215cadd001f64e7aac56d3508c6a1c0df2bceaaf5ca"
+     },
+     {
+      "at": 244,
+      "delete": 0,
+      "insert": [
+       "### Article 5"
+      ],
+      "class": "structural_heading",
+      "expect_before": "4dbe4a23a2e1fccb52fb75083d2f5e33966f4fff20de4cc8f15318e621c83679"
+     },
+     {
+      "at": 260,
+      "delete": 0,
+      "insert": [
+       "### Article 6"
+      ],
+      "class": "structural_heading",
+      "expect_before": "d53249cd4a90a3b29e67a72c515e63fe7f8fc6402dfdd79b14afe04d532db12a"
+     },
+     {
+      "at": 312,
+      "delete": 0,
+      "insert": [
+       "### Article 7"
+      ],
+      "class": "structural_heading",
+      "expect_before": "e4e6815d376205142baa671bbe4cce37b2cbf6ca787b02785c5b2539e4df5cfc"
+     },
+     {
+      "at": 318,
+      "delete": 0,
+      "insert": [
+       "### Article 8"
+      ],
+      "class": "structural_heading",
+      "expect_before": "55b71fe9fbea27f9f462404b1306ea04c45bea10532865137528156d8bb3ca6f"
+     },
+     {
+      "at": 322,
+      "delete": 0,
+      "insert": [
+       "### Article 9"
+      ],
+      "class": "structural_heading",
+      "expect_before": "ccb5661c57279c8bf7ae136586ba7fc84b04be0089190fed4f074c0fe556ec33"
+     }
+    ]
+   }
+  },
+  "U11": {
+   "path": "corpus_local/uae/U11.md",
+   "raw_name": "dubai_law24_2023_en.pdf",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": true,
+    "drop_blank": true,
+    "drop_regex": [
+     "^(Law No\\. \\(24\\) of 2023 Establishing the Dubai Data and Statistics Establishment|Page \\d+ of 12)$"
+    ]
+   },
+   "meta": [
+    [
+     "doc_id",
+     "U11"
+    ],
+    [
+     "instrument_id",
+     "AE-DU-L-24-2023"
+    ],
+    [
+     "title",
+     "Law No. (24) of 2023 Establishing the Dubai Data and Statistics Establishment"
+    ],
+    [
+     "issuer",
+     "Ruler of Dubai (Mohammed bin Rashid Al Maktoum)"
+    ],
+    [
+     "instrument_type",
+     "law"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-DU"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "true"
+    ],
+    [
+     "source_url",
+     "https://dlp.dubai.gov.ae/Legislation%20Reference/2023/Law%20No.%20%2824%29%20of%202023%20Dubai%20Data.pdf"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "English version, Dubai Legislation Portal PDF (c 2023 Supreme Legislation Committee); issued in Dubai 21 November 2023; Arabic text prevails (footnote 1)"
+    ],
+    [
+     "effective_date",
+     "on the day of issue (Art. 21): 2023-11-21; also to be published in the Official Gazette"
+    ],
+    [
+     "supersedes",
+     "Law No. (28) of 2015 and Law (2) of 2016 repealed by Art. 20(a)"
+    ],
+    [
+     "status",
+     "in force (inference: no repeal found)"
+    ],
+    [
+     "terms_note",
+     "link only; Dubai Legislation Portal terms (https://dlp.dubai.gov.ae/en/Pages/TermsAndConditions.aspx, read 2026-10-27): \"You may not, however, republish, retransmit, redistribute or otherwise make the material available to any other party [...] without the Supreme Legislation Committee express prior written consent.\""
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "a3ac6a8f171829a79af87631f5bdd3bf5ff11b50b5d6a9b759afb108506e4a39"
+    ],
+    [
+     "extraction",
+     "pymupdf 1.28.0, text layer; page = printed 'Page N of 12'; running page header lines removed; definition tables extract with definition before term"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 30,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "11c2227b5e9116342ceabbc116af394924932c5a66ef68da1fd486da1ea7778f"
+    },
+    {
+     "at": 33,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8775bbb39cb0805e30a731b00808ae5b246fcde24b445f1734656bf34ac5e2af"
+    },
+    {
+     "at": 112,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "670efdd3d6521b435f61e765e44a1df2edaf61755655e41e1b1afed0c3d5f768"
+    },
+    {
+     "at": 118,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1589e673a4855576b258be6703200c1fcfcac6c31892cfe4a8f75105498de0ef"
+    },
+    {
+     "at": 122,
+     "delete": 0,
+     "insert": [
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c99c8caad2c57efdf00aa56616abb83a88dafb968660131b796a0a790a2f14b0"
+    },
+    {
+     "at": 138,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "98da233d9f8eec898f622a022881a7bd83210dfe43a00266a7907e72b5adf34a"
+    },
+    {
+     "at": 209,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b59b9dab9c4d79b0233ee124296216c1fff28acdb81381b9aa8c1e6b3f244ecb"
+    },
+    {
+     "at": 215,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fd70951027996904fbee7cdc5f07f47e7e17cbf4f0cc95e04b22affeceade100"
+    },
+    {
+     "at": 221,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c4d145bf6fb7774bb13a13c5d047fb78745cc8dbe9de113e73b4572780ac809e"
+    },
+    {
+     "at": 256,
+     "delete": 0,
+     "insert": [
+      "### Article 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fe2e06bcc33ae049c43849675cfcd860db435ee49b0d46eed05a98dbe31b05f6"
+    },
+    {
+     "at": 262,
+     "delete": 0,
+     "insert": [
+      "### Article 11"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cfd12feae12b76afb7cb82651ff1957abe08f0452f6a2be1c99c95f6fd7d21c8"
+    },
+    {
+     "at": 272,
+     "delete": 0,
+     "insert": [
+      "### Article 12"
+     ],
+     "class": "structural_heading",
+     "expect_before": "68786a5220aae0a99184ad3edd500e22c98ac7bffd111d249dc8349dc2b1059e"
+    },
+    {
+     "at": 277,
+     "delete": 0,
+     "insert": [
+      "### Article 13"
+     ],
+     "class": "structural_heading",
+     "expect_before": "21265ac96171da89298d6d485ace1409e0f4447bb40c493e84f1524c787ef7d8"
+    },
+    {
+     "at": 286,
+     "delete": 0,
+     "insert": [
+      "### Article 14"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1b690b48a65e5f3a1a65f89bb47dcc81672ba63c271c3b555bba5283f8bfe6c0"
+    },
+    {
+     "at": 295,
+     "delete": 0,
+     "insert": [
+      "### Article 15"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6d80486cc33a915c7f4e37a813aaef90930f1ed89057b2716fd71cd80ee8c046"
+    },
+    {
+     "at": 300,
+     "delete": 0,
+     "insert": [
+      "### Article 16"
+     ],
+     "class": "structural_heading",
+     "expect_before": "444206375e2a9931b3ce97e7aaeb3ea960685ab2de3faa29bfb90969ef3da6a1"
+    },
+    {
+     "at": 325,
+     "delete": 0,
+     "insert": [
+      "### Article 17"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8ac00288a3d55ea5e3aad47d21dcf3c933b8a3d83712f85b6d5e71577f3b2dad"
+    },
+    {
+     "at": 332,
+     "delete": 0,
+     "insert": [
+      "### Article 18"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c74cdb8c5510a8aebbf75e3b75e3b9990801ddaf5975ccbf13e8d70f30838ec4"
+    },
+    {
+     "at": 341,
+     "delete": 0,
+     "insert": [
+      "### Article 19"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cf00d86289e5082b0673d3a4f5d6969bf766740b695ad813fa9222868f3d845b"
+    },
+    {
+     "at": 346,
+     "delete": 0,
+     "insert": [
+      "### Article 20"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6c910f4584f368e0ed99b2b9c9c33c946e9ccd7986c446daacb5db99e472e532"
+    },
+    {
+     "at": 354,
+     "delete": 0,
+     "insert": [
+      "### Article 21"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e7f964a642fee6a97dbb14c73c16dc812abe9448d95f6ef21edf3a0382985c64"
+    }
+   ]
+  },
+  "U12": {
+   "path": "corpus_local/uae/U12.md",
+   "raw_name": "dubai_res2_2017_en.html",
+   "extractor": "html_blocks",
+   "options": {},
+   "meta": [
+    [
+     "doc_id",
+     "U12"
+    ],
+    [
+     "instrument_id",
+     "AE-DU-R-2-2017"
+    ],
+    [
+     "title",
+     "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai"
+    ],
+    [
+     "issuer",
+     "Chairman of the Board of Directors of the Smart Dubai City Office (Saeed Mohammed Al Tayer)"
+    ],
+    [
+     "instrument_type",
+     "resolution"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-DU"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "true"
+    ],
+    [
+     "source_url",
+     "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)"
+    ],
+    [
+     "effective_date",
+     "on the day of publication in the Official Gazette (Art. 3 of the Resolution); gazette date not stated in the downloaded text"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: cited in the preamble of Executive Council Resolution No. 50 of 2024 and in Law No. 9 of 2022)"
+    ],
+    [
+     "terms_note",
+     "link only; Dubai Legislation Portal terms (https://dlp.dubai.gov.ae/en/Pages/TermsAndConditions.aspx, read 2026-10-27): \"You may not, however, republish, retransmit, redistribute or otherwise make the material available to any other party [...] without the Supreme Legislation Committee express prior written consent.\""
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f"
+    ],
+    [
+     "extraction",
+     "beautifulsoup4/lxml on Word-exported HTML (cp1252); the source has no page breaks so page 1 = whole document; navigation absent; table rows joined as 'term definition'"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 3,
+     "delete": 1,
+     "insert": [],
+     "class": "excerpt_selection",
+     "delete_sha256": "631718ce49897088cdb899a07f1b16d235558ccdc7216fc9ee8b29afc12a7c5f",
+     "deleted_lines": 1
+    },
+    {
+     "at": 12,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fb9337872d8f5d8982eb08ffac64565eb945566a2a5fe960fd9f04d12e3eb732"
+    },
+    {
+     "at": 15,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "ccce443339109cb4278d60691023b8ff0e6955973b53b64dd085ab96cd07bf99"
+    },
+    {
+     "at": 18,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c18253f378031b1d3cf92c5eb6d3408454ed0d0516d44628c568f822c65569a4"
+    },
+    {
+     "at": 24,
+     "delete": 0,
+     "insert": [
+      "### Part: Policies Document on Classification"
+     ],
+     "class": "structural_heading",
+     "expect_before": "2d086975207ff13080527bbb5768faf68dc37c515b1f98e6079935326ccf60a6"
+    },
+    {
+     "at": 25,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter One"
+     ],
+     "class": "structural_heading",
+     "expect_before": "3e93ded328010c26b2176cdc15e10c360110a14f9f60379e2d83f093ad3f3e2e"
+    },
+    {
+     "at": 27,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b39aa316473624cc0e9461cb0c9f820b59b040a22a32be2360df7d597f984b28"
+    },
+    {
+     "at": 67,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab"
+    },
+    {
+     "at": 74,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "01c35f80ecc874a63c24f45d6ec0eb4ddb368815a40b452e5f7d9accd87ab9b8"
+    },
+    {
+     "at": 81,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "eba92953899468e3f79c084370cc455f39c256e77b5277ff480e3384ff9ecc27"
+    },
+    {
+     "at": 94,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Two",
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "85c0e5bd4d6773ceb9de1387cd86919a2874abb0d75022ac342bfc765b568fcb"
+    },
+    {
+     "at": 99,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "60b6572b71c6b78c86de276ac05332fe2a1e0a5c8506667e0de0d33aab800c9d"
+    },
+    {
+     "at": 116,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "919a7d252033569f7483680cb46b61d99572257b9475da734cbcc1f165233f19"
+    },
+    {
+     "at": 118,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "a9443f8692425e1c2120a3956566af40c7f269b5389afef3bf5e05b4e7ea48cf"
+    },
+    {
+     "at": 122,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "ced5674da13d0f1f02d9ae1bf88d4fda258406a737a798c1469cbc3cdb85b80d"
+    },
+    {
+     "at": 128,
+     "delete": 0,
+     "insert": [
+      "### Article 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "21d993d59340a46fc4c3cb1cff03b6816d8c2950ea312042875a6b073980fa39"
+    },
+    {
+     "at": 130,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Three"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4ccc0ab086ccc75c89628d10ed53bd023a4c25bcac1ffe0d57a2621fa6a83383"
+    },
+    {
+     "at": 132,
+     "delete": 0,
+     "insert": [
+      "### Article 11"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8ebf115747efa13c64aba40003b558c2466a9b6580fdffe17025fd66d8269262"
+    },
+    {
+     "at": 145,
+     "delete": 0,
+     "insert": [
+      "### Article 12"
+     ],
+     "class": "structural_heading",
+     "expect_before": "069475566a404be25a6f4ef55df42cdcc454ed2b19b1a7c9a11a11faa925915b"
+    },
+    {
+     "at": 157,
+     "delete": 0,
+     "insert": [
+      "### Article 13"
+     ],
+     "class": "structural_heading",
+     "expect_before": "640999f234ab6658d3e10482f40ea4ddab42021cb7a8c312e5079fcae1d6af2e"
+    },
+    {
+     "at": 162,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Four"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9297a0b3343866860633256a0cd02f5eac959904869b68e0d32cbaa118465cf5"
+    },
+    {
+     "at": 164,
+     "delete": 0,
+     "insert": [
+      "### Article 14"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0d34ed8e013ac0028d29847a70aa5697a595e10241540db3fcdbb0f5a272164b"
+    },
+    {
+     "at": 166,
+     "delete": 0,
+     "insert": [
+      "### Article 15"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e0c1bcd47b5a3a7debeeb5d966d344d232fcae17382f0e8d01bae2f6d0fec7a3"
+    },
+    {
+     "at": 174,
+     "delete": 0,
+     "insert": [
+      "### Article 16"
+     ],
+     "class": "structural_heading",
+     "expect_before": "89fa3a41868d09961fee7d10ba347daa23a785cd27ac1b8d4b58fbeabe729ef9"
+    },
+    {
+     "at": 180,
+     "delete": 0,
+     "insert": [
+      "### Article 17"
+     ],
+     "class": "structural_heading",
+     "expect_before": "56d5fff2704378d4cf3879657b39e8790b292351c33b81247b0c6fc6519eeaa4"
+    },
+    {
+     "at": 188,
+     "delete": 0,
+     "insert": [
+      "### Article 18"
+     ],
+     "class": "structural_heading",
+     "expect_before": "33df6f8fdb543a59be4b6fc66e8d5b1a2c15a1806612d70b5f21cc50ff687e7f"
+    },
+    {
+     "at": 206,
+     "delete": 0,
+     "insert": [
+      "### Article 19"
+     ],
+     "class": "structural_heading",
+     "expect_before": "3560a73020969135bdf27577c011ca99421d40c1c07a78bf2aea172da65fd4ca"
+    },
+    {
+     "at": 223,
+     "delete": 0,
+     "insert": [
+      "### Article 20"
+     ],
+     "class": "structural_heading",
+     "expect_before": "7718ebc33052baf57929edc3ffe5e377f3546f45cdd27609246d5098f9a2023d"
+    },
+    {
+     "at": 233,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Five"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9d06f53e2aca43cf6146da72962742b5790d02d98b3cd7d89ef9488acbe5429e"
+    },
+    {
+     "at": 235,
+     "delete": 0,
+     "insert": [
+      "### Article 21"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4832e259e7be628261f2d89b1c7508da28f551d72748810f5cf95b8590e5caf1"
+    },
+    {
+     "at": 238,
+     "delete": 0,
+     "insert": [
+      "### Article 22"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4597e5345f5b99f59d43596945982b0e38660da1eb1de3627a6dc98cb1a9ad8a"
+    },
+    {
+     "at": 241,
+     "delete": 0,
+     "insert": [
+      "### Article 23"
+     ],
+     "class": "structural_heading",
+     "expect_before": "30d93ad265be6999a585b6c37ba40029b2cb1eb2120ebf101e31e6a776e63b17"
+    },
+    {
+     "at": 250,
+     "delete": 0,
+     "insert": [
+      "### Article 24"
+     ],
+     "class": "structural_heading",
+     "expect_before": "f0b99a1d87e4636b8969bef96ec65ff15bd77a41403afe1978b2d06c3314cf07"
+    },
+    {
+     "at": 252,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Six"
+     ],
+     "class": "structural_heading",
+     "expect_before": "85ca16593a8abb99f50cabf8761e69b10d84077e6df7162887d0c1d00787526e"
+    },
+    {
+     "at": 254,
+     "delete": 0,
+     "insert": [
+      "### Article 25"
+     ],
+     "class": "structural_heading",
+     "expect_before": "36e865ea8ee317554102f16174d0630f5330aa227b6c90ac4e0457f9565293e6"
+    },
+    {
+     "at": 256,
+     "delete": 0,
+     "insert": [
+      "### Article 26"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fdacd9dd2ffbd5c03a160ae975faf701a69d26d728b29b939f00e5a90fa8b341"
+    },
+    {
+     "at": 263,
+     "delete": 0,
+     "insert": [
+      "### Article 27"
+     ],
+     "class": "structural_heading",
+     "expect_before": "12495b05b5fecce326d35318bae0bd1ed160baf365a4bf379a6f875412ffed01"
+    },
+    {
+     "at": 282,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Seven"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4b6008350d3380a36c5189fce72bab25da31012fddbbb2fa7be54bcc59283103"
+    },
+    {
+     "at": 283,
+     "delete": 0,
+     "insert": [
+      "### Article 28"
+     ],
+     "class": "structural_heading",
+     "expect_before": "44b1da69b9f84fee16f6e2cbeb64e5b93c1cde5d3d97993461334676f3affcae"
+    },
+    {
+     "at": 286,
+     "delete": 0,
+     "insert": [
+      "### Part: Chapter Eight"
+     ],
+     "class": "structural_heading",
+     "expect_before": "ef34d7bf88471a64075837f7fa5be9a6ddea855a345f02de2dcb1dc6808643ba"
+    },
+    {
+     "at": 288,
+     "delete": 0,
+     "insert": [
+      "### Article 29"
+     ],
+     "class": "structural_heading",
+     "expect_before": "d0a8a56738551570e48ba17263269ac706cbe1cc03ba1a1dfccf639fa2cd2480"
+    },
+    {
+     "at": 302,
+     "delete": 0,
+     "insert": [
+      "### Article 30"
+     ],
+     "class": "structural_heading",
+     "expect_before": "01e2490b40a409b5df643bec6a3c3a45e113303841f7d7f5dd19b286db455d9c"
+    },
+    {
+     "at": 304,
+     "delete": 0,
+     "insert": [
+      "### Article 31"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b3f7b2881413c96515a3e6408bb4388e211cf7574217ba1e432807d2608af6fa"
+    },
+    {
+     "at": 306,
+     "delete": 0,
+     "insert": [
+      "### Article 32"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9f70c0d5385f6ea73a5febbbd76621321619a63f77c3a5455b6c2c9c479b3915"
+    },
+    {
+     "at": 317,
+     "delete": 0,
+     "insert": [
+      "### Article 33"
+     ],
+     "class": "structural_heading",
+     "expect_before": "f28285eda6f2cf5ee6d6b4d6cf93a8221a4526b99cb79ceebbdf87f965f9baa8"
+    },
+    {
+     "at": 325,
+     "delete": 0,
+     "insert": [
+      "### Article 34"
+     ],
+     "class": "structural_heading",
+     "expect_before": "dd323d6a738267698e612886f1ef0714238bb649a7faa2a51e9c65211c1956bd"
+    },
+    {
+     "at": 328,
+     "delete": 0,
+     "insert": [
+      "### Article 35"
+     ],
+     "class": "structural_heading",
+     "expect_before": "4a109cc49467be33772416ac924cc5729dcea700b8b4a0ba12f10bc595e2fa2c"
+    },
+    {
+     "at": 332,
+     "delete": 0,
+     "insert": [
+      "### Article 36"
+     ],
+     "class": "structural_heading",
+     "expect_before": "88f290be5b6f30eb5d217b20ac15cb53c681d05383fdc57f0235434b7c649d24"
+    }
+   ]
+  },
+  "U13": {
+   "path": "corpus_local/uae/U13.md",
+   "raw_name": "dubai_ecres50_2024_en.html",
+   "extractor": "html_blocks",
+   "options": {},
+   "meta": [
+    [
+     "doc_id",
+     "U13"
+    ],
+    [
+     "instrument_id",
+     "AE-DU-ECR-50-2024"
+    ],
+    [
+     "title",
+     "Executive Council Resolution No. (50) of 2024 Concerning the Unified Population Register of the Emirate of Dubai"
+    ],
+    [
+     "issuer",
+     "Chairman of the Executive Council of Dubai (Hamdan bin Mohammed bin Rashid Al Maktoum)"
+    ],
+    [
+     "instrument_type",
+     "resolution"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-DU"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "true"
+    ],
+    [
+     "source_url",
+     "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Executive%20Council%20Resolution%20No.%20(50)%20of%202024%20Unified%20Population%20Register.html"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "English version, Dubai Legislation Portal HTML (c 2024 Supreme Legislation Committee); issued in Dubai 28 August 2024; Arabic text prevails (footnote 1)"
+    ],
+    [
+     "effective_date",
+     "on the day of issue (Art. 11): 2024-08-28; also to be published in the Official Gazette"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: no repeal found)"
+    ],
+    [
+     "terms_note",
+     "link only; Dubai Legislation Portal terms (https://dlp.dubai.gov.ae/en/Pages/TermsAndConditions.aspx, read 2026-10-27): \"You may not, however, republish, retransmit, redistribute or otherwise make the material available to any other party [...] without the Supreme Legislation Committee express prior written consent.\""
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "5207b69fbf6e1dfd52eb7af6b35cea09c385f1afc014f5c72b9337eea7ef85c2"
+    ],
+    [
+     "extraction",
+     "beautifulsoup4/lxml on Word-exported HTML (cp1252); the source has no page breaks so page 1 = whole document; navigation absent; table rows joined as 'term definition'"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 16,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8775bbb39cb0805e30a731b00808ae5b246fcde24b445f1734656bf34ac5e2af"
+    },
+    {
+     "at": 39,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "01c35f80ecc874a63c24f45d6ec0eb4ddb368815a40b452e5f7d9accd87ab9b8"
+    },
+    {
+     "at": 44,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e00102b88e9da448142ca7481ba2ad8616211ca4e6d4b7ecdab4ea59edc20a6d"
+    },
+    {
+     "at": 54,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "d5d97b4cedde8e463e70313a0443eab4a7f0ea1d2a0ad0a7d6bbe12567426b9b"
+    },
+    {
+     "at": 58,
+     "delete": 0,
+     "insert": [
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "98da233d9f8eec898f622a022881a7bd83210dfe43a00266a7907e72b5adf34a"
+    },
+    {
+     "at": 75,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "d10f92456ec1ed37c3e45b47f689db8cf9ff2b63b642b85e0505eae6f4e45f3f"
+    },
+    {
+     "at": 82,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6fd76d1838717509a67eda4707acaf68a5a3d1bf97e1e1b5c6dfae2a13abae7d"
+    },
+    {
+     "at": 94,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6529c2ba9a7543f6688d2ae8c0a2ebdcfe324a8afdd2d056d8645d5f09a543e5"
+    },
+    {
+     "at": 97,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cf00d86289e5082b0673d3a4f5d6969bf766740b695ad813fa9222868f3d845b"
+    },
+    {
+     "at": 100,
+     "delete": 0,
+     "insert": [
+      "### Article 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6c910f4584f368e0ed99b2b9c9c33c946e9ccd7986c446daacb5db99e472e532"
+    },
+    {
+     "at": 103,
+     "delete": 0,
+     "insert": [
+      "### Article 11"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e7f964a642fee6a97dbb14c73c16dc812abe9448d95f6ef21edf3a0382985c64"
+    }
+   ]
+  },
+  "U15": {
+   "path": "corpus_local/uae/U15.md",
+   "raw_name": "smart_data_framework_part1_en.docx",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": true,
+    "drop_blank": true
+   },
+   "meta": [
+    [
+     "doc_id",
+     "U15"
+    ],
+    [
+     "instrument_id",
+     "AE-FED-SDF-P1-2019"
+    ],
+    [
+     "title",
+     "The UAE Smart Data Framework, Part 1: Smart Data Principles and Standards (Version 2.0)"
+    ],
+    [
+     "issuer",
+     "UAE federal government (issuing body not named in the text; u.ae publishes it among federal government guidelines)"
+    ],
+    [
+     "instrument_type",
+     "framework"
+    ],
+    [
+     "binding",
+     "false"
+    ],
+    [
+     "jurisdiction",
+     "AE-federal"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "false"
+    ],
+    [
+     "source_url",
+     "https://assets.u.ae/api/public/content/45565063bf554b27b580c8df39f97550?v=cb016275"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "Version 2.0, document date February 2019; listed on https://u.ae/en/resources/guidelines as 'UAE Smart Data Framework (EN) - Part 1 Principle and Standards', last updated 7 Dec 2022"
+    ],
+    [
+     "effective_date",
+     "null"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: still listed on the u.ae guidelines page on 2026-10-27)"
+    ],
+    [
+     "terms_note",
+     "link only; u.ae copyright page (https://u.ae/en/Footer/Copyright, read 2026-10-27): \"Any unauthorised use, reproduction or printing of the information and materials contained in this website, is strictly prohibited.\" The document itself carries no republishing terms."
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "0b06a9b3dafa6563af607937a20cc6f836fcc281d68245344243f733a96e17f9"
+    ],
+    [
+     "extraction",
+     "pymupdf 1.28.0 opening a .docx; page = PyMuPDF layout page index, not Word pagination (the document's own table of contents numbers differ); headings Principle N / N.N inferred by regex after the introduction"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 65,
+     "delete": 0,
+     "insert": [
+      "### Part: 1.1 Purpose of the Smart Data Framework"
+     ],
+     "class": "structural_heading",
+     "expect_before": "41a3ba586caa09d649dc086feca03bf0babe451b69eb4d34175a6736fcc92d64"
+    },
+    {
+     "at": 85,
+     "delete": 0,
+     "insert": [
+      "### Part: 1.2 Approach of the Smart Data"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9824137cd3481e6d3092100acc041147467d0048d21941ac988434a1ebe91d6e"
+    },
+    {
+     "at": 149,
+     "delete": 0,
+     "insert": [
+      "### Part: 1.3 Scope and applicability"
+     ],
+     "class": "structural_heading",
+     "expect_before": "13287214605f2ec032be4ef4f5cfdea50223ff4bbc5e70f9c8e0f74ae4ce74ee"
+    },
+    {
+     "at": 162,
+     "delete": 0,
+     "insert": [
+      "### Part: 1.4 Structure of the Smart Data"
+     ],
+     "class": "structural_heading",
+     "expect_before": "47339380230a7718159749271d84f6e5bebdb44d39f2e1bc0a561e6c37259689"
+    },
+    {
+     "at": 211,
+     "delete": 0,
+     "insert": [
+      "### Part: 2.1 Introduction"
+     ],
+     "class": "structural_heading",
+     "expect_before": "851f033ce39f8ad57694a56e13ae96c5603ccf2404ca9d9223cd6d4f92c6f8ac"
+    },
+    {
+     "at": 218,
+     "delete": 0,
+     "insert": [
+      "### Part: 2.2 The Smart Data Principles"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1098fa0107b1de6f7bbc34bf71ebf4d6ae3753ab0fa090372ef1bee696a41a71"
+    },
+    {
+     "at": 234,
+     "delete": 0,
+     "insert": [
+      "### Principle 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fffc6a6ede4ead13f6c94a019f48b1ff4cb453309f07597cd6b98046a15f6a7c"
+    },
+    {
+     "at": 249,
+     "delete": 0,
+     "insert": [
+      "### Principle 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e729922b15cc54dd355c6fa5896fef0064a3b204c2f5b484feab7830fd1d0400"
+    },
+    {
+     "at": 261,
+     "delete": 0,
+     "insert": [
+      "### Principle 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "93ee47c406e6a554fdbf1f025712e3e8de6e1aef40acbf035629a50623a81dcb"
+    },
+    {
+     "at": 282,
+     "delete": 0,
+     "insert": [
+      "### Principle 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1c3a3c7b94bf6723f7442fb0de316d26649d30372417ac3661572750cdecf79a"
+    },
+    {
+     "at": 304,
+     "delete": 0,
+     "insert": [
+      "### Principle 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "75f74bb9119b8b2c3ecb7a689e451dc2ed44c1573626f8bf4ad2b5839af1a852"
+    },
+    {
+     "at": 319,
+     "delete": 0,
+     "insert": [
+      "### Principle 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "664c028d614c1f819d760b8b311b0b2c902e115a4e2afd9bfc05293a833f9f65"
+    },
+    {
+     "at": 336,
+     "delete": 0,
+     "insert": [
+      "### Principle 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "82dfc30617c896504a53151945f1eb9fe0e32c399b34fc1dbf73b1f9616c3093"
+    },
+    {
+     "at": 347,
+     "delete": 0,
+     "insert": [
+      "### Principle 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "a870de2174b0c72a3dbec428fda538381074efef0ed6721b0155c4b290b57f5c"
+    },
+    {
+     "at": 363,
+     "delete": 0,
+     "insert": [
+      "### Principle 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "50a420d86ef5c1c26ca4bd5e6e279e77d5798a95647cce5e61eabfd6ed2bd515"
+    },
+    {
+     "at": 375,
+     "delete": 0,
+     "insert": [
+      "### Principle 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c8524df5581288a49aa9737948d53f2ef3bc4b643d30504a112282219e5ffbca"
+    },
+    {
+     "at": 390,
+     "delete": 0,
+     "insert": [
+      "### Part: 3.1 Overview"
+     ],
+     "class": "structural_heading",
+     "expect_before": "ed67b4f9e3be54965e9e1d2b8e5fda9809e5ed5970e25fb75cef5a6e7a3f6997"
+    },
+    {
+     "at": 419,
+     "delete": 0,
+     "insert": [
+      "### Part: 3.2 Structure of specifications"
+     ],
+     "class": "structural_heading",
+     "expect_before": "dbd352616424f963b8d29afbc96a6c9bbc6046b9ca21d3269b572235abac8f51"
+    },
+    {
+     "at": 459,
+     "delete": 0,
+     "insert": [
+      "### Part: 3.3 Data Classification Standard"
+     ],
+     "class": "structural_heading",
+     "expect_before": "014265dc012f86e1b3a7eb51f4dc38d5073e277fbaad866472cf0d4bea1e867d"
+    },
+    {
+     "at": 492,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DC1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "588f508e4a710ef779cee555a1b97c6c8bc79dba78f76fb21b445b5dbeabc7c0"
+    },
+    {
+     "at": 559,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DC2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0040a7e2e15e7c8972a7d0fdd9e90866b07c0974588cf15704fb92f9ee6020ee"
+    },
+    {
+     "at": 643,
+     "delete": 0,
+     "insert": [
+      "### Part: 3.4 Data Exchange Standards"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fd25fc0d1bbba166ec512ee3c226377cf4ed6ae6a705a931d798411aa727acf0"
+    },
+    {
+     "at": 669,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cc802437b68044aa305ab03f829495157817464b29d266be34b6361d28df83ff"
+    },
+    {
+     "at": 760,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "58e96ecda039d35c8f7481f0ecab51f82d9011a1e1ded94a70df5611d6f08c18"
+    },
+    {
+     "at": 833,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "bfceb82481eea41083b721e3d99d42c5b34ae27e4e03170ffad8a75e948050d6"
+    },
+    {
+     "at": 887,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fb3eae8ceb3010b1aec708a4ce975f3976e9ee8cea7a17596625356f7e751855"
+    },
+    {
+     "at": 952,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0e104b75381ec3e99aceeeb2b17e14fc19c9d09fdff1aa82c1d5653064cf9cd3"
+    },
+    {
+     "at": 1029,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "c82dc44897728d74d14aa0d9cdca96679d359264cf17c35aab550cc8858b40a8"
+    },
+    {
+     "at": 1110,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DE7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9e2eff5c37eabaf239dbf182742d3de124b1f97b36f8f29167f319b25b303c5b"
+    },
+    {
+     "at": 1177,
+     "delete": 0,
+     "insert": [
+      "### Part: 3.5 Data Quality Standard"
+     ],
+     "class": "structural_heading",
+     "expect_before": "354d53a6e9f024b5bdaa294b141a6e0c2841e834926bfaea29b12cea6eeab896"
+    },
+    {
+     "at": 1219,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DQ1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1c0d4e16e75327c25c2b8b87cce51d61dbb150078fcad259a98906f9dad4352a"
+    },
+    {
+     "at": 1288,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DQ2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "37cb388b88d1809967e66a8efcb967540712bf1ddfb440ac5e883816825ec17e"
+    },
+    {
+     "at": 1341,
+     "delete": 0,
+     "insert": [
+      "### Part: Specification DQ3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "871d9d29ba4ece762a656a69d4cc9d07b03a2657ad195ff27a65e943c446a601"
+    },
+    {
+     "at": 1406,
+     "delete": 0,
+     "insert": [
+      "### Part: Appendix A - Glossary"
+     ],
+     "class": "structural_heading",
+     "expect_before": "fb286cea02866046891c6ca08b34156fda4c54912927d8a12139ea722542fe8d"
+    }
+   ]
+  },
+  "U16": {
+   "path": "corpus_local/uae/U16.md",
+   "raw_name": "guide_access_gov_information_en.docx",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": true,
+    "drop_blank": true
+   },
+   "meta": [
+    [
+     "doc_id",
+     "U16"
+    ],
+    [
+     "instrument_id",
+     "AE-FED-GAGI-2017"
+    ],
+    [
+     "title",
+     "A Guide to Access Government Information Through the Official Portal of the UAE Government (Version 1.0)"
+    ],
+    [
+     "issuer",
+     "UAE federal government (UAE mGovernment named in Section 3 as the follow-up body)"
+    ],
+    [
+     "instrument_type",
+     "guideline"
+    ],
+    [
+     "binding",
+     "false"
+    ],
+    [
+     "jurisdiction",
+     "AE-federal"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "false"
+    ],
+    [
+     "source_url",
+     "https://assets.u.ae/api/public/content/d99438b8bc94405d864397c0b5059a13?v=eeee32a3"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T16:59:00Z"
+    ],
+    [
+     "version",
+     "Version 1.0, dated 5 April 2017; listed on https://u.ae/en/resources/guidelines, last updated 8 Dec 2022"
+    ],
+    [
+     "effective_date",
+     "null"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (inference: still listed on the u.ae guidelines page on 2026-10-27)"
+    ],
+    [
+     "terms_note",
+     "link only; u.ae copyright page (https://u.ae/en/Footer/Copyright, read 2026-10-27): \"Any unauthorised use, reproduction or printing of the information and materials contained in this website, is strictly prohibited.\" The document itself carries no republishing terms."
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "b60e91ec7562d8c5fcc8ffd7b6d66adffd64fdb8c7d9b8f676d890e8c869d7f6"
+    ],
+    [
+     "extraction",
+     "pymupdf 1.28.0 opening a .docx; page = PyMuPDF layout page index, not Word pagination; Section N headings by regex"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 7,
+     "delete": 0,
+     "insert": [
+      "### Section 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e224421e5488948002344b255d488f6ca58742d71a3ec58391a80915ba00ed71"
+    },
+    {
+     "at": 17,
+     "delete": 0,
+     "insert": [
+      "### Section 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "587ef50e404c8b5c0bf3812d0ad1903cdb7928d596b5b3c00950465959ee0f05"
+    },
+    {
+     "at": 24,
+     "delete": 0,
+     "insert": [
+      "### Section 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "33b15800b52759a5c5b8038b54b8655bdb69eb9659aa131e529fc8023445a4a0"
+    },
+    {
+     "at": 33,
+     "delete": 0,
+     "insert": [
+      "### Section 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "77523a55d051f4de3761b8523df18b1bcef9de1fe9638c36dc6de7e701bed990"
+    },
+    {
+     "at": 69,
+     "delete": 0,
+     "insert": [
+      "### Section 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "782b158e7860f25ddeb34fa280e938e098bd35e2ddd5370d3cb2fdcf6cc97543"
+    },
+    {
+     "at": 120,
+     "delete": 0,
+     "insert": [
+      "### Section 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "cffa52e643357233dc2523a22d92a4e5d49a29869daa22e8f87ab5efede28ac2"
+    },
+    {
+     "at": 133,
+     "delete": 0,
+     "insert": [
+      "### Section 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1fec8c45420560b7c5f867ec3af31d5045f5de1387528ffc6c9ed39c231fe2f1"
+    },
+    {
+     "at": 147,
+     "delete": 0,
+     "insert": [
+      "### Section 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "45ff619a915dc9202ee443be8bc353a1f0779e8ed12e03c0782e41ebf910e6e4"
+    },
+    {
+     "at": 230,
+     "delete": 0,
+     "insert": [
+      "### Section 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "88239c49a0090312c86c8c88bb18cc5cd0716a66669919c3e10462f7b78392e2"
+    }
+   ]
+  },
+  "G6": {
+   "path": "corpus_local/global/G6.md",
+   "raw_name": "sgmodelaigovframework2.pdf",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": false,
+    "drop_blank": false
+   },
+   "meta": [
+    [
+     "doc_id",
+     "G6"
+    ],
+    [
+     "instrument_id",
+     "SG-IMDA-PDPC-MAIGF-2E"
+    ],
+    [
+     "title",
+     "Model Artificial Intelligence Governance Framework, Second Edition (IMDA and PDPC, Singapore): excerpt"
+    ],
+    [
+     "issuer",
+     "Infocomm Media Development Authority (IMDA) and Personal Data Protection Commission (PDPC)"
+    ],
+    [
+     "instrument_type",
+     "guidance"
+    ],
+    [
+     "binding",
+     "false"
+    ],
+    [
+     "jurisdiction",
+     "SG"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "false"
+    ],
+    [
+     "source_url",
+     "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf"
+    ],
+    [
+     "retrieved_at",
+     "2026-10-27T14:20:57Z"
+    ],
+    [
+     "version",
+     "Second Edition, released 21 January 2020 (First Edition 23 January 2019)"
+    ],
+    [
+     "effective_date",
+     "2020-01-21"
+    ],
+    [
+     "supersedes",
+     "Model AI Governance Framework, First Edition (2019-01-23)"
+    ],
+    [
+     "status",
+     "published voluntary framework; later IMDA frameworks exist for generative AI (2024) and agentic AI (January 2026, updated May 2026 per secondary sources S, not opened)"
+    ],
+    [
+     "terms_note",
+     "Last page of the PDF: \"The contents of this publication are protected by copyright, trademark or other forms of proprietary rights and may not be reproduced, republished or transmitted in any form or by any means, in whole or in part, without written permission.\" Link only."
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "f2d199c826207a259c1c67b8379c0e2b0028fecf142129df9bf16447abcfb2d4"
+    ],
+    [
+     "extraction",
+     "pymupdf, text layer; pdf page N = printed page N (page 1 is the cover); sidebar call-out text and layout labels retained as extracted; [...] marks the unselected remainder of a page-level excerpt"
+    ],
+    [
+     "provisions_included",
+     "Paragraphs 2.7 to 2.9 (guiding principles); 3.8 to 3.18 (levels of human involvement: human-in-the-loop, human-out-of-the-loop, human-over-the-loop; probability-severity matrix); 3.26 to 3.29 (explainability); 3.36 to 3.38 (traceability, audit trail); 3.45 to 3.55 (general disclosure, policy for explanation, opt-out, decision review channels)"
+    ],
+    [
+     "commencement_note",
+     "Voluntary guidance, no commencement date; second edition released 21 January 2020 at the World Economic Forum Annual Meeting."
+    ],
+    [
+     "scope_note",
+     "Addressed to private-sector organisations deploying AI (the text speaks of organisations, consumers and commercial objectives); chosen as the most general of the three IMDA editions because it covers human involvement, explanation, review channels and traceability together. Not a public-service instrument."
+    ],
+    [
+     "verification",
+     "agent-opened, not yet Walter-verified"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 0,
+     "delete": 359,
+     "insert": [
+      "### Part: Guiding principles"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "dcef974afd476348e2e2a60dc30181e427daa4942ea615d7063b800392b00da4",
+     "deleted_lines": 359
+    },
+    {
+     "at": 388,
+     "delete": 417,
+     "insert": [
+      "[...]",
+      "",
+      "### Part: Determining the level of human involvement in AI-augmented decision-making"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "04aa85b2d64b393d3a96c7c85cda1238b289b1b67dadd1480b522a830f67f15e",
+     "deleted_lines": 417
+    },
+    {
+     "at": 841,
+     "delete": 27,
+     "insert": [
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "6df51b0bd9d5085dc0fd1582b6219021e6b973be73ef40249d8e0505e4973597",
+     "deleted_lines": 27
+    },
+    {
+     "at": 910,
+     "delete": 0,
+     "insert": [
+      "[...]"
+     ],
+     "class": "omission_mark",
+     "expect_before": "a6b152ccf8a36fad676cd3733d7901e00d360a244180a0cbafe15f81bec13643"
+    },
+    {
+     "at": 952,
+     "delete": 483,
+     "insert": [
+      "[...]",
+      "",
+      "### Part: Operations management (explainability and traceability)"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "4426fc2dca3da972eaccf3b864f8df4b29aafe55d2c961971c40835502b76677",
+     "deleted_lines": 483
+    },
+    {
+     "at": 1477,
+     "delete": 1,
+     "insert": [
+      "b.",
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "f2b21b966c5224014b56992226d7bd53bffbd6a03669735e553d2e3c82471da3",
+     "deleted_lines": 1
+    },
+    {
+     "at": 1518,
+     "delete": 79,
+     "insert": [
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "ef9fbf7f04bb5255885a8dcf4508acb7cfff41220bafe11caf9c254c54a49314",
+     "deleted_lines": 79
+    },
+    {
+     "at": 1633,
+     "delete": 0,
+     "insert": [
+      "[...]"
+     ],
+     "class": "omission_mark",
+     "expect_before": "b3a8090af6c3ea2a28ff4f3d35165f98b3b015d58cd44af1844d2823b57a8fef"
+    },
+    {
+     "at": 1664,
+     "delete": 101,
+     "insert": [
+      "[...]",
+      "",
+      "### Part: Stakeholder interaction and communication"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "f5124cbaf008baaf1b8e710854b84882c386a4c3cc6dd380e9a13f74821f704a",
+     "deleted_lines": 101
+    },
+    {
+     "at": 1806,
+     "delete": 1,
+     "insert": [
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+     "deleted_lines": 1
+    },
+    {
+     "at": 1843,
+     "delete": 0,
+     "insert": [
+      "[...]"
+     ],
+     "class": "omission_mark",
+     "expect_before": "3860510ec53c57d87bb83cc46853ad2ac2097da15e939a16a817fe5a4a0bf656"
+    },
+    {
+     "at": 1891,
+     "delete": 0,
+     "insert": [
+      "[...]"
+     ],
+     "class": "omission_mark",
+     "expect_before": "415b95c636fbc1d6f955b1b59e5265f83ac18113bd664b5310324578629312d4"
+    },
+    {
+     "at": 1916,
+     "delete": 0,
+     "insert": [
+      "[...]"
+     ],
+     "class": "omission_mark",
+     "expect_before": "7193c3438e1ae45424062b3025ca845d4836a0a227a9908f941defe53a6bfb0c"
+    },
+    {
+     "at": 1964,
+     "delete": 467,
+     "insert": [
+      "b.",
+      "[...]"
+     ],
+     "class": "excerpt_selection",
+     "delete_sha256": "4286460597c66e08ded4589870ac837d49a11622dae3075d1b8fa5334842cc89",
+     "deleted_lines": 467
+    }
+   ]
+  },
+  "U01EN": {
+   "path": "corpus_local/uae/U01EN.md",
+   "raw_name": "U01_en.pdf",
+   "extractor": "pymupdf_lines",
+   "options": {
+    "rstrip": true,
+    "drop_blank": true,
+    "drop_regex": [
+     "^(Federal Decree by Law Concerning the Protection of Personal Data|\\d{1,2})$"
+    ]
+   },
+   "meta": [
+    [
+     "doc_id",
+     "U01EN"
+    ],
+    [
+     "instrument_id",
+     "AE-FDL-45-2021"
+    ],
+    [
+     "title",
+     "Federal Decree-Law No. (45) of 2021 on the Protection of Personal Data (official English text)"
+    ],
+    [
+     "issuer",
+     "President of the United Arab Emirates"
+    ],
+    [
+     "instrument_type",
+     "decree-law"
+    ],
+    [
+     "binding",
+     "true"
+    ],
+    [
+     "jurisdiction",
+     "AE-federal"
+    ],
+    [
+     "language",
+     "en"
+    ],
+    [
+     "official_translation",
+     "true"
+    ],
+    [
+     "source_url",
+     "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    ],
+    [
+     "retrieved_at",
+     "2026-11-10T01:44:00Z"
+    ],
+    [
+     "version",
+     "English text as served by the UAE Legislation portal (PDF created 2024-01-24, 29 pages, 194,597 bytes); issued 2021-09-20 (13 Safar 1443 AH); in force 2022-01-02 (Art. 31); same instrument as U01 (Arabic print edition)"
+    ],
+    [
+     "effective_date",
+     "2022-01-02"
+    ],
+    [
+     "supersedes",
+     "null"
+    ],
+    [
+     "status",
+     "in force (as stated in Art. 31; amendments not checked)"
+    ],
+    [
+     "terms_note",
+     "link only; downloaded by the reviewer in a browser from the official UAE Legislation portal (the portal refuses scripted clients, so its terms were not read by the agent); treated as link only like the other UAE texts"
+    ],
+    [
+     "republish",
+     "link_only"
+    ],
+    [
+     "sha256",
+     "d5d5f9e93bd6c0dc2afe79776f3101bcd599e4400a67309bc0b378b2812bcf3a"
+    ],
+    [
+     "extraction",
+     "pymupdf text layer; page = PDF page; running header 'Federal Decree by Law Concerning the Protection of Personal Data' and page-number lines removed; Article N headings added by the preparer before each 'Article (N)' line; the text calls the UAE Data Office 'the Bureau'"
+    ]
+   ],
+   "patch": [
+    {
+     "at": 21,
+     "delete": 0,
+     "insert": [
+      "### Article 1"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9ad94ed1880bef1453fc19f3caccbecd22f2a8e3f7506e70ab28f3c385c82280"
+    },
+    {
+     "at": 162,
+     "delete": 0,
+     "insert": [
+      "### Article 2"
+     ],
+     "class": "structural_heading",
+     "expect_before": "65d42e916db6e4227f8c85b8df0ecc7a02aa3315da079b32c32d2417392a2595"
+    },
+    {
+     "at": 183,
+     "delete": 0,
+     "insert": [
+      "### Article 3"
+     ],
+     "class": "structural_heading",
+     "expect_before": "f405c00b010ade68455a5ded7c9fc088bcf5697f7c8158f1f6d47b5c37d081f6"
+    },
+    {
+     "at": 190,
+     "delete": 0,
+     "insert": [
+      "### Article 4"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1867baf1fc3980fbc27b614d7ac7b1e737429953a88edc2818a8d413c7c9b2e3"
+    },
+    {
+     "at": 221,
+     "delete": 0,
+     "insert": [
+      "### Article 5"
+     ],
+     "class": "structural_heading",
+     "expect_before": "db526d56e924de222f93a809dfe33359e009ba385b2acff58efc5d3cf6a384b3"
+    },
+    {
+     "at": 242,
+     "delete": 0,
+     "insert": [
+      "### Article 6"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0a174f12cf95f9d4e05bac62727772f563670ac42cae49c1ccb16b1fbd305442"
+    },
+    {
+     "at": 255,
+     "delete": 0,
+     "insert": [
+      "### Article 7"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9c6e6837607470dc6dab77572961dd798eca37e1cbe279516a394881d5d75785"
+    },
+    {
+     "at": 289,
+     "delete": 0,
+     "insert": [
+      "### Article 8"
+     ],
+     "class": "structural_heading",
+     "expect_before": "8211c2b98b2c4cba1faf4fee1c0632501bf32d760fd909a68d983232af691d96"
+    },
+    {
+     "at": 330,
+     "delete": 0,
+     "insert": [
+      "### Article 9"
+     ],
+     "class": "structural_heading",
+     "expect_before": "d6bc0d7530b3c98af8a0608f4e2c3f5964b7d1ed342d071b570f1cd83932ffa0"
+    },
+    {
+     "at": 361,
+     "delete": 0,
+     "insert": [
+      "### Article 10"
+     ],
+     "class": "structural_heading",
+     "expect_before": "714d3c2a9d277fd9983884a4f1c76de70b359d77b58bd8ef913647d971d80ebb"
+    },
+    {
+     "at": 378,
+     "delete": 0,
+     "insert": [
+      "### Article 11"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6e2809381809bebf51ca528002f2c70428e783806448ae0985dc6d0a4f864897"
+    },
+    {
+     "at": 402,
+     "delete": 0,
+     "insert": [
+      "### Article 12"
+     ],
+     "class": "structural_heading",
+     "expect_before": "91b95d98dcdda7606ca826204bcc9cf691440e31162de09dc73f4b0a09eb412e"
+    },
+    {
+     "at": 420,
+     "delete": 0,
+     "insert": [
+      "### Article 13"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1f41e64ecb697288ba44d187a24cfa69d206e12f4d9810f4b125b59366349993"
+    },
+    {
+     "at": 451,
+     "delete": 0,
+     "insert": [
+      "### Article 14"
+     ],
+     "class": "structural_heading",
+     "expect_before": "7a2103f5e39daf019cdc818bed52a070684dcbfa9f76321dc2c5548d2df7f318"
+    },
+    {
+     "at": 460,
+     "delete": 0,
+     "insert": [
+      "### Article 15"
+     ],
+     "class": "structural_heading",
+     "expect_before": "14ba2ab2632517c55ed599338ccb9721065243e98e56c71781ccecf19b650893"
+    },
+    {
+     "at": 484,
+     "delete": 0,
+     "insert": [
+      "### Article 16"
+     ],
+     "class": "structural_heading",
+     "expect_before": "9ffffca340f7b4e29d8ea0da17553c8c858c8ff98dc3a0704d44133b29130966"
+    },
+    {
+     "at": 509,
+     "delete": 0,
+     "insert": [
+      "### Article 17"
+     ],
+     "class": "structural_heading",
+     "expect_before": "79d7e91ab31c3c80efd469295c14d024cade6bdf3c61eb9f304fde948d145702"
+    },
+    {
+     "at": 518,
+     "delete": 0,
+     "insert": [
+      "### Article 18"
+     ],
+     "class": "structural_heading",
+     "expect_before": "0bb63052ce4abd74be76b132c53d19bd2c94703dba24f2fa9ab401b74346f833"
+    },
+    {
+     "at": 537,
+     "delete": 0,
+     "insert": [
+      "### Article 19"
+     ],
+     "class": "structural_heading",
+     "expect_before": "e805a69bd493fca2b24b577b141c4efbc2e027248bd61b7b41351b81d5fba888"
+    },
+    {
+     "at": 541,
+     "delete": 0,
+     "insert": [
+      "### Article 20"
+     ],
+     "class": "structural_heading",
+     "expect_before": "1ffd846bb915d713f0ebb217383092925c2002ca0bf5a64f3db938fddf1f131f"
+    },
+    {
+     "at": 561,
+     "delete": 0,
+     "insert": [
+      "### Article 21"
+     ],
+     "class": "structural_heading",
+     "expect_before": "6d7c264bdbcb11c76196a8fff383715387d1dc85921daa6ab96e782d5936aed2"
+    },
+    {
+     "at": 596,
+     "delete": 0,
+     "insert": [
+      "### Article 22"
+     ],
+     "class": "structural_heading",
+     "expect_before": "7482b6cfb12624a822def85df67de7d2fc1bc2f20206eb62a53de8e12225ee2f"
+    },
+    {
+     "at": 609,
+     "delete": 0,
+     "insert": [
+      "### Article 23"
+     ],
+     "class": "structural_heading",
+     "expect_before": "bb39387a5dcf566f027406501336e3c5dc6e4b5b2961e5ef5660aa79ee57f8e0"
+    },
+    {
+     "at": 635,
+     "delete": 0,
+     "insert": [
+      "### Article 24"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b55830082647091ca72f97b34379091e3cfd286dba43fbf10167fb889773bf5d"
+    },
+    {
+     "at": 648,
+     "delete": 0,
+     "insert": [
+      "### Article 25"
+     ],
+     "class": "structural_heading",
+     "expect_before": "3c51f32e74bc8ace7e00701a2f266eae4652f7408f8582577d295667531e8ff4"
+    },
+    {
+     "at": 659,
+     "delete": 0,
+     "insert": [
+      "### Article 26"
+     ],
+     "class": "structural_heading",
+     "expect_before": "a2130ec05b3d40b68b670599507bb850d34ed2222916c9702fec857e5be28d58"
+    },
+    {
+     "at": 665,
+     "delete": 0,
+     "insert": [
+      "### Article 27"
+     ],
+     "class": "structural_heading",
+     "expect_before": "eb0f79789e5c5ff53260a61b2eb91b01e592a3ea7eb2e0dc607d28cef7a0fe22"
+    },
+    {
+     "at": 670,
+     "delete": 0,
+     "insert": [
+      "### Article 28"
+     ],
+     "class": "structural_heading",
+     "expect_before": "7cf5eb898393ce344e35f025331ce85544f86ffd6b05626ee4f2f143eda09923"
+    },
+    {
+     "at": 675,
+     "delete": 0,
+     "insert": [
+      "### Article 29"
+     ],
+     "class": "structural_heading",
+     "expect_before": "366d12dfb8a6c70d5e57033a63563b0e8f779db16a3d3d332956362c8b71299f"
+    },
+    {
+     "at": 682,
+     "delete": 0,
+     "insert": [
+      "### Article 30"
+     ],
+     "class": "structural_heading",
+     "expect_before": "17075aed083e8acbda5c581e1db9cc73d3d260197673b1c1369c31adf022605f"
+    },
+    {
+     "at": 685,
+     "delete": 0,
+     "insert": [
+      "### Article 31"
+     ],
+     "class": "structural_heading",
+     "expect_before": "b4f4fe857e56f16cc6b95dde03ce412f242f3772e6573e4556cf9c0da9d120f8"
+    }
+   ]
+  }
+ },
+ "accepted_edits": {}
+}

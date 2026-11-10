@@ -1,0 +1,138 @@
+{
+  "kind": "scenario",
+  "started_at": "2026-11-10T09:27:58.032361Z",
+  "scenario_id": "S-02",
+  "synthetic": true,
+  "kb_version": "kb-6b62e9ecc91c",
+  "rulings": [
+    {
+      "step_id": "S02-1",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    },
+    {
+      "step_id": "S02-2",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    }
+  ],
+  "revisions": [],
+  "gaps": [],
+  "model_rejections": [],
+  "models": {
+    "service": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "custodian": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "cost": {
+    "test_double": false,
+    "calls": 4,
+    "input_tokens": 13058,
+    "output_tokens": 5223,
+    "cost_usd": 0.003917,
+    "reserved_usd": 0.0,
+    "ledger_ids": [
+      "20261110T042755-20caaf53"
+    ],
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.05265
+  },
+  "test_double": false,
+  "stopped": null,
+  "code_version": "c0cf7ac+dirty",
+  "code_tree_sha256": "3e6ebd9d7a0938b9120b1227ee495b676a32cce15816334b1be371ecb7c3d9c0",
+  "note": "retain digest.json separately from log.jsonl; record count and last hash are the check",
+  "applicability_sha256": "b4b61abdc25699f52ad468c5464add1156e8c9c2810f3012889804bfeb567652",
+  "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d",
+  "scenario_file_sha256": "f8c008f51e54990ddfe4cb415c47b18db9460eec0277c0e7de917febbc9cd43f",
+  "digest": {
+    "count": 12,
+    "last_hash": "7d9aa86b6519fa9045f30024685ec3299f378d4b963545f8819f1330ea2a3d3e"
+  }
+}

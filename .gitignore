@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+corpus_local/
+build/
+*.egg-info/
+runs/
+.env
+*.key
+runs_rehearsal/
+label_cards/

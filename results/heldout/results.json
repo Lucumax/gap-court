@@ -1,0 +1,520 @@
+{
+  "stamp": {
+    "split": "heldout",
+    "labels_file": "labels_v1.jsonl",
+    "labels_sha256": "8ba759817e35d38fd70fae5a343d789ac676482cfe54b71d6da9edf9923be652",
+    "label_status": "APPROVED (frozen)",
+    "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d",
+    "kb_version": "kb-6b62e9ecc91c",
+    "models": [
+      "claude-haiku-5-5"
+    ],
+    "efforts": [
+      "medium"
+    ],
+    "code_version_scoring": "c0cf7ac+dirty",
+    "run_code_versions": [
+      "82c4576",
+      "c0cf7ac+dirty",
+      "fa2335b"
+    ],
+    "run_ids": [
+      "heldout/20261110T092416Z@da6ecbdc396a",
+      "smoke/S-03-20261102T014545Z@c0dd303a173a",
+      "demo/S-04/r1@eae7d8a413df",
+      "demo/S-04/r2@d3986e2a0d45",
+      "S-01/r1@3b8f4cf4d9d9",
+      "S-01/r2@94dbd81a3485",
+      "S-01/r3@71758d66f029",
+      "S-02/r1@7d9aa86b6519"
+    ],
+    "test_double": false,
+    "banner": null,
+    "code_differs_from_freeze": [
+      {
+        "run": "smoke/S-03-20261102T014545Z@c0dd303a173a",
+        "reason": "the code tree differs from the frozen one (freeze 3e6ebd9d7a09, run 9d9c15188a27)"
+      },
+      {
+        "run": "demo/S-04/r1@eae7d8a413df",
+        "reason": "the code tree differs from the frozen one (freeze 3e6ebd9d7a09, run fb4718023db3)"
+      }
+    ],
+    "scored_at": "2026-11-10T09:28:25Z"
+  },
+  "rows": {
+    "outcome_agreement": {
+      "system": {
+        "agree": 7,
+        "n": 8,
+        "by_category": {
+          "answerable": {
+            "agree": 2,
+            "n": 2
+          },
+          "paraphrase_trap": {
+            "agree": 1,
+            "n": 1
+          },
+          "missing_document": {
+            "agree": 2,
+            "n": 2
+          },
+          "ambiguity": {
+            "agree": 0,
+            "n": 1
+          },
+          "candidate_gap": {
+            "agree": 2,
+            "n": 2
+          }
+        }
+      },
+      "baseline": {
+        "agree": 2,
+        "n": 8,
+        "by_category": {
+          "answerable": {
+            "agree": 0,
+            "n": 2
+          },
+          "paraphrase_trap": {
+            "agree": 0,
+            "n": 1
+          },
+          "missing_document": {
+            "agree": 2,
+            "n": 2
+          },
+          "ambiguity": {
+            "agree": 0,
+            "n": 1
+          },
+          "candidate_gap": {
+            "agree": 0,
+            "n": 2
+          }
+        }
+      },
+      "excluded_exposed": [],
+      "run_id": "heldout/20261110T092416Z@da6ecbdc396a",
+      "missing_cases": [],
+      "blocked_cases": [
+        "PC04",
+        "PC10"
+      ],
+      "baseline_name": "retrieval plus abstain threshold (no roles, no gate)"
+    },
+    "paired": {
+      "case_ids": [
+        "PC02",
+        "PC06",
+        "PC08",
+        "PC12",
+        "PC14",
+        "PC16",
+        "PC18",
+        "PC20"
+      ],
+      "system": {
+        "n": 8,
+        "correct": 7,
+        "decisive": 3,
+        "unsupported_decisive": 0,
+        "escalated": 1,
+        "abstained": 4,
+        "model_failures": 0
+      },
+      "baseline": {
+        "n": 8,
+        "correct": 2,
+        "decisive": 0,
+        "unsupported_decisive": 0,
+        "escalated": 0,
+        "abstained": 8,
+        "model_failures": 0
+      },
+      "note": "same cases, same knowledge base, same retrieval settings (top 5, kb_uae); the baseline calls no model, so it has no model failures and never escalates"
+    },
+    "false_findings": {
+      "system": {
+        "false_gap": {
+          "k": 0,
+          "n": 4
+        },
+        "false_answer": {
+          "k": 0,
+          "n": 4
+        }
+      },
+      "baseline": {
+        "false_gap": {
+          "k": 0,
+          "n": 4
+        },
+        "false_answer": {
+          "k": 0,
+          "n": 4
+        }
+      }
+    },
+    "retrieval_top5": {
+      "bm25": {
+        "all": {
+          "hit": 1,
+          "n": 4
+        },
+        "answerable": {
+          "hit": 1,
+          "n": 2
+        },
+        "paraphrase_trap": {
+          "hit": 0,
+          "n": 1
+        },
+        "ambiguity": {
+          "hit": 0,
+          "n": 1
+        }
+      },
+      "vector": {
+        "all": {
+          "hit": 2,
+          "n": 4
+        },
+        "answerable": {
+          "hit": 2,
+          "n": 2
+        },
+        "paraphrase_trap": {
+          "hit": 0,
+          "n": 1
+        },
+        "ambiguity": {
+          "hit": 0,
+          "n": 1
+        }
+      },
+      "hybrid": {
+        "all": {
+          "hit": 2,
+          "n": 4
+        },
+        "answerable": {
+          "hit": 2,
+          "n": 2
+        },
+        "paraphrase_trap": {
+          "hit": 0,
+          "n": 1
+        },
+        "ambiguity": {
+          "hit": 0,
+          "n": 1
+        }
+      }
+    },
+    "scenario_steps": [
+      {
+        "run_id": "smoke/S-03-20261102T014545Z@c0dd303a173a",
+        "scenario_id": "S-03",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "matched": 1,
+        "n": 1,
+        "steps": [
+          {
+            "step_id": "S03-1",
+            "expected": "GAP",
+            "observed": "GAP",
+            "match": true
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "demo/S-04/r1@eae7d8a413df",
+        "scenario_id": "S-04",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": true,
+        "stopped": null,
+        "matched": 0,
+        "n": 2,
+        "steps": [
+          {
+            "step_id": "S04-1",
+            "expected": "DENY",
+            "observed": "ESCALATE",
+            "match": false
+          },
+          {
+            "step_id": "S04-2",
+            "expected": "ALLOW",
+            "observed": "ESCALATE",
+            "match": false
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "demo/S-04/r2@d3986e2a0d45",
+        "scenario_id": "S-04",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": true,
+        "stopped": null,
+        "matched": 0,
+        "n": 2,
+        "steps": [
+          {
+            "step_id": "S04-1",
+            "expected": "DENY",
+            "observed": "ESCALATE",
+            "match": false
+          },
+          {
+            "step_id": "S04-2",
+            "expected": "ALLOW",
+            "observed": "ESCALATE",
+            "match": false
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "S-01/r1@3b8f4cf4d9d9",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "matched": 2,
+        "n": 3,
+        "steps": [
+          {
+            "step_id": "S01-1",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          },
+          {
+            "step_id": "S01-2",
+            "expected": "DENY",
+            "observed": "ESCALATE",
+            "match": false
+          },
+          {
+            "step_id": "S01-3",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "S-01/r2@94dbd81a3485",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "matched": 2,
+        "n": 3,
+        "steps": [
+          {
+            "step_id": "S01-1",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          },
+          {
+            "step_id": "S01-2",
+            "expected": "DENY",
+            "observed": "ESCALATE",
+            "match": false
+          },
+          {
+            "step_id": "S01-3",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "S-01/r3@71758d66f029",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "matched": 2,
+        "n": 3,
+        "steps": [
+          {
+            "step_id": "S01-1",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          },
+          {
+            "step_id": "S01-2",
+            "expected": "DENY",
+            "observed": "ESCALATE",
+            "match": false
+          },
+          {
+            "step_id": "S01-3",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          }
+        ],
+        "blocked": []
+      },
+      {
+        "run_id": "S-02/r1@7d9aa86b6519",
+        "scenario_id": "S-02",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "matched": 1,
+        "n": 2,
+        "steps": [
+          {
+            "step_id": "S02-1",
+            "expected": "ESCALATE",
+            "observed": "ESCALATE",
+            "match": true
+          },
+          {
+            "step_id": "S02-2",
+            "expected": "SCOPE_FINDING",
+            "observed": "ESCALATE",
+            "match": false
+          }
+        ],
+        "blocked": []
+      }
+    ],
+    "revisions": [
+      {
+        "run_id": "smoke/S-03-20261102T014545Z@c0dd303a173a",
+        "scenario_id": "S-03",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 0,
+        "stale": 0
+      },
+      {
+        "run_id": "demo/S-04/r1@eae7d8a413df",
+        "scenario_id": "S-04",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": true,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 1,
+        "stale": 1
+      },
+      {
+        "run_id": "demo/S-04/r2@d3986e2a0d45",
+        "scenario_id": "S-04",
+        "frozen": false,
+        "exposed": true,
+        "scenario_file_changed": false,
+        "development_demonstration": true,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 1,
+        "stale": 1
+      },
+      {
+        "run_id": "S-01/r1@3b8f4cf4d9d9",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 2,
+        "stale": 2
+      },
+      {
+        "run_id": "S-01/r2@94dbd81a3485",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 2,
+        "stale": 2
+      },
+      {
+        "run_id": "S-01/r3@71758d66f029",
+        "scenario_id": "S-01",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 2,
+        "stale": 2
+      },
+      {
+        "run_id": "S-02/r1@7d9aa86b6519",
+        "scenario_id": "S-02",
+        "frozen": true,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "development_demonstration": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 0,
+        "stale": 0
+      }
+    ],
+    "judge_added_runs": [],
+    "quotations": {
+      "kept": 50,
+      "dropped": 1,
+      "dropped_by_reason": {
+        "quotation_too_short": 1
+      },
+      "note": "kept means the quotation was found in the cited passage; it is not a legal interpretation"
+    },
+    "model_rejections": {
+      "by_reason": {},
+      "calls": 35,
+      "input_tokens": 129294,
+      "output_tokens": 38324,
+      "usd": 0.032091
+    },
+    "kb_release": {
+      "note": "no KB-release receipt saved under the runs folder"
+    }
+  },
+  "excluded_runs": []
+}

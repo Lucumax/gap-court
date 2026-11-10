@@ -1,0 +1,72 @@
+{
+  "kind": "cases",
+  "split": "dev",
+  "labels_sha256": "8ba759817e35d38fd70fae5a343d789ac676482cfe54b71d6da9edf9923be652",
+  "kb_version": "kb-6b62e9ecc91c",
+  "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d",
+  "started_at": "2026-11-10T09:24:22.910220Z",
+  "case_ids": [
+    "PC01",
+    "PC03",
+    "PC05",
+    "PC07",
+    "PC11",
+    "PC15",
+    "PC17",
+    "PC19",
+    "PC21"
+  ],
+  "models": {
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "code_version": "c0cf7ac+dirty",
+  "test_double": false,
+  "cost": {
+    "test_double": false,
+    "ledger_id": "20261110T042420-bc41ccae",
+    "calls": 9,
+    "input_tokens": 35295,
+    "output_tokens": 6938,
+    "cost_usd": 0.006998,
+    "reserved_usd": 0.0,
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.020584
+  },
+  "stopped": null,
+  "model_rejections": [],
+  "baseline_threshold": 0.35,
+  "code_tree_sha256": "3e6ebd9d7a0938b9120b1227ee495b676a32cce15816334b1be371ecb7c3d9c0",
+  "applicability_sha256": "b4b61abdc25699f52ad468c5464add1156e8c9c2810f3012889804bfeb567652",
+  "digest": {
+    "count": 20,
+    "last_hash": "bd450a5f605dd247223aa49b399031925f517b6c8d001c83e871bfb9af31a670"
+  }
+}

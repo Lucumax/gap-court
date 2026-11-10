@@ -1,0 +1,352 @@
+{
+  "manifest_version": 1,
+  "statement": "Acquisition manifest for the link-only sources. kb-fetch downloads automatic entries with a plain client and checks each sha256; manual entries are hosts that refused a scripted client or files not yet obtained, and kb-fetch prints the browser step for them. A host can refuse later even where it worked before, so complete automatic retrieval is not promised. Nothing listed here is republished in this repository.",
+  "sources": [
+    {
+      "doc_id": "F1",
+      "title": "Recommendation ITU-T Y.3172 (06/2019) Architectural framework for machine learning in future networks including IMT-2020: excerpt",
+      "file": "corpus_local/_raw/F1/y3172.pdf",
+      "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-Y.3172-201906-I!!PDF-E&type=items",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "e42f9a3be3f951d3e19b9007f876f0b389c81b4693f0d8576e18185a1acfe67b",
+      "bytes": 1145173,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "F2",
+      "title": "ITU AI Ready - Analysis Towards a Standardized Readiness Framework, Report 2.0 (January 2026): 13 dimensions list, with names also from the reference repository dimensions.json",
+      "file": "corpus_local/_raw/F2/AI_Ready_Framework_2025.pdf",
+      "url": "https://raw.githubusercontent.com/CrashingGuru/ITUAIReadiness/main/simulation/server/knowledge/InputDocs/AI_Strategies/AI_Ready_Framework_2025.pdf",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "71191768d46b60778c15f8d62b162aff73a319785cfc31ebf76bb944b0c68273",
+      "bytes": 1109667,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "G1",
+      "title": "Directive on Automated Decision-Making (Treasury Board of Canada Secretariat): excerpt",
+      "file": "corpus_local/_raw/G1/directive.html",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "225f990673205a49cee216fb8fc124909e8eb917559e3e258a8dd7fb7c35a0e3",
+      "bytes": 69865,
+      "media": "html",
+      "republish": "unknown",
+      "access": "manual",
+      "note": "HTML page: the host may serve different bytes on a later visit (dynamic markup), so a mismatch needs review against the recorded hash, never a silent update",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "hash_mismatch",
+        "detail": "received 244 bytes that differ from the recorded file",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      },
+      "manual_reason": "kb-fetch check on 2026-11-01 from a fresh folder: hash_mismatch (received 244 bytes that differ from the recorded file)"
+    },
+    {
+      "doc_id": "G4",
+      "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225): excerpt",
+      "file": "corpus_local/_raw/G4/rm_coe_1680afae3c.pdf",
+      "url": "https://rm.coe.int/1680afae3c",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "1ac6c8a85f55446cdb53697b57c6be3ce8757068043992955eda571e7fe52f23",
+      "bytes": 362548,
+      "media": "pdf",
+      "republish": "unknown",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "G5",
+      "title": "Recommendation of the Council on Artificial Intelligence (OECD AI Principles), as amended 3 May 2024: excerpt",
+      "file": "corpus_local/_raw/G5/oecd_legal_0449_body_en.htm",
+      "url": "https://legalinstruments.oecd.org/public/doc/648/f401b8d2-9993-41ec-82c5-d53a69e4991b.htm",
+      "url_basis": "instrument body file named in the G5 extraction note",
+      "sha256": "b640ff4dac49ad0e9fa20e1a4933e9cb9cb4967de3b287a4b0994f864f839c11",
+      "bytes": 37168,
+      "media": "html",
+      "republish": "unknown",
+      "access": "automatic",
+      "note": "HTML page: the host may serve different bytes on a later visit (dynamic markup), so a mismatch needs review against the recorded hash, never a silent update",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "G6",
+      "title": "Model Artificial Intelligence Governance Framework, Second Edition (IMDA and PDPC, Singapore): excerpt",
+      "file": "corpus_local/_raw/G6/sgmodelaigovframework2.pdf",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "f2d199c826207a259c1c67b8379c0e2b0028fecf142129df9bf16447abcfb2d4",
+      "bytes": 1543277,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "manual",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "unavailable",
+        "detail": "HTTP 202",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      },
+      "manual_reason": "kb-fetch check on 2026-11-01 from a fresh folder: unavailable (HTTP 202)"
+    },
+    {
+      "doc_id": "G8",
+      "title": "Germany: Sozialgesetzbuch Zehntes Buch (SGB X) Sections 31a, 35, 67c and Verwaltungsverfahrensgesetz (VwVfG) Sections 24, 35a, 37, 39 (fully automated administrative acts, reasons, purpose-bound reuse of social data): excerpt in German",
+      "file": "corpus_local/_raw/G8/sgb_10_xml.zip",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/xml.zip",
+      "url_basis": "SGB X XML download",
+      "sha256": "292ef507a408a47db579e29d1970fa40b9d71fcc221f6957d57400f3e077b934",
+      "bytes": 61099,
+      "media": "zip",
+      "republish": "unknown",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U01",
+      "title": "Federal Decree-Law No. (45) of 2021 on the Protection of Personal Data (Arabic print edition)",
+      "file": "corpus_local/_raw/U01/pdpl_ar_u.ae.pdf",
+      "url": "https://assets.u.ae/api/public/content/954629a06cc64fd887771ce3273d6154?v=21d88839",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "16741e65108040bc9ab5b1e982def19d75578205e446e7724dfcc0d8986b8441",
+      "bytes": 358663,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U06",
+      "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+      "file": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+      "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+      "bytes": 854207,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U08",
+      "title": "سياسة \"المتعامل الرقمي والخدمة الحكومية الرقمية\" (Digital Customer and Digital Government Service Policy)",
+      "file": "corpus_local/_raw/U08/digital_customer_policy_ar_u.ae.pdf",
+      "url": "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "9bb60e43c2db6eb187c86caca1f59c64af3cb3cdc64c0b5bb487188495f448d0",
+      "bytes": 445498,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U08",
+      "title": "Digital Customer and Digital Government Service Policy: checked transcription, not the official text layer (private)",
+      "file": "corpus_local/_raw/U08/U08_checked_transcription.txt",
+      "url": "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66",
+      "url_basis": "the official PDF the transcription was made from (its own entry above); the transcription itself is not published",
+      "sha256": "c585b8686fac0e91c93f88fef4279d2ecf36a248ab4070a039ef6a456453f39e",
+      "bytes": 27123,
+      "media": "txt",
+      "republish": "link_only",
+      "access": "manual",
+      "manual_reason": "private checked transcription of the official PDF (two-method merge, scripts/build_u08_checked.py), kept out of the repository under the link-only terms; without it `gapcourt prepare --rebuild-all` rebuilds U08 from the official PDF's text layer (the fallback in corpus/PREP.json)"
+    },
+    {
+      "doc_id": "U11",
+      "title": "Law No. (24) of 2023 Establishing the Dubai Data and Statistics Establishment",
+      "file": "corpus_local/_raw/U11/dubai_law24_2023_en.pdf",
+      "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2023/Law%20No.%20%2824%29%20of%202023%20Dubai%20Data.pdf",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "a3ac6a8f171829a79af87631f5bdd3bf5ff11b50b5d6a9b759afb108506e4a39",
+      "bytes": 272132,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U12",
+      "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+      "file": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+      "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+      "bytes": 328557,
+      "media": "html",
+      "republish": "link_only",
+      "access": "automatic",
+      "note": "HTML page: the host may serve different bytes on a later visit (dynamic markup), so a mismatch needs review against the recorded hash, never a silent update",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U13",
+      "title": "Executive Council Resolution No. (50) of 2024 Concerning the Unified Population Register of the Emirate of Dubai",
+      "file": "corpus_local/_raw/U13/dubai_ecres50_2024_en.html",
+      "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Executive%20Council%20Resolution%20No.%20(50)%20of%202024%20Unified%20Population%20Register.html",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "5207b69fbf6e1dfd52eb7af6b35cea09c385f1afc014f5c72b9337eea7ef85c2",
+      "bytes": 243752,
+      "media": "html",
+      "republish": "link_only",
+      "access": "automatic",
+      "note": "HTML page: the host may serve different bytes on a later visit (dynamic markup), so a mismatch needs review against the recorded hash, never a silent update",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U15",
+      "title": "The UAE Smart Data Framework, Part 1: Smart Data Principles and Standards (Version 2.0)",
+      "file": "corpus_local/_raw/U15/smart_data_framework_part1_en.docx",
+      "url": "https://assets.u.ae/api/public/content/45565063bf554b27b580c8df39f97550?v=cb016275",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "0b06a9b3dafa6563af607937a20cc6f836fcc281d68245344243f733a96e17f9",
+      "bytes": 484748,
+      "media": "docx",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U16",
+      "title": "A Guide to Access Government Information Through the Official Portal of the UAE Government (Version 1.0)",
+      "file": "corpus_local/_raw/U16/guide_access_gov_information_en.docx",
+      "url": "https://assets.u.ae/api/public/content/d99438b8bc94405d864397c0b5059a13?v=eeee32a3",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "b60e91ec7562d8c5fcc8ffd7b6d66adffd64fdb8c7d9b8f676d890e8c869d7f6",
+      "bytes": 71244,
+      "media": "docx",
+      "republish": "link_only",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "G8",
+      "title": "",
+      "file": "corpus_local/_raw/G8/vwvfg_xml.zip",
+      "url": "https://www.gesetze-im-internet.de/vwvfg/xml.zip",
+      "url_basis": "VwVfG XML download (second file behind G8)",
+      "sha256": "02be966cf1910760ef72afa8d3bd5f7d2da2a05b90f03a5c638a5355b2bf9b9b",
+      "bytes": 43385,
+      "media": "zip",
+      "republish": "unknown",
+      "access": "automatic",
+      "last_checked": {
+        "date": "2026-11-01",
+        "result": "fetched_ok",
+        "detail": "sha256 matches",
+        "client": "kb-fetch plain client, fresh folder, no cookies"
+      }
+    },
+    {
+      "doc_id": "U01EN",
+      "title": "Federal Decree-Law No. (45) of 2021 on the Protection of Personal Data (official English text)",
+      "file": "corpus_local/_raw/U01EN/U01_en.pdf",
+      "url": "https://uaelegislation.gov.ae/en/legislations/1972/download",
+      "url_basis": "source_url in the corpus front matter",
+      "sha256": "d5d5f9e93bd6c0dc2afe79776f3101bcd599e4400a67309bc0b378b2812bcf3a",
+      "bytes": 194597,
+      "media": "pdf",
+      "republish": "link_only",
+      "access": "manual",
+      "manual_reason": "uaelegislation.gov.ae refused an automated client during collection; the reviewer downloaded the file in a browser on 2026-11-09 and the hash was recorded after the title and number were checked"
+    },
+    {
+      "doc_id": "U04",
+      "title": "UAE Charter for the Development and Use of Artificial Intelligence",
+      "url": "https://uaelegislation.gov.ae/en/policy/details/the-uae-charter-for-the-development-and-use-of-artificial-intelligence",
+      "file": "corpus_local/uae/_incoming/U04_charter_en.pdf",
+      "media": "pdf",
+      "url_basis": "official portal address; refused a scripted client (HTTP 403) on 2026-10-27",
+      "sha256": null,
+      "bytes": null,
+      "republish": "link_only",
+      "access": "manual",
+      "manual_reason": "not yet obtained: the host refused a scripted client; download it in a browser, then the hash is recorded here after review"
+    },
+    {
+      "doc_id": "U10",
+      "title": "Federal Decree-Law No. (23) of 2024 on social support (title to be confirmed from the official text)",
+      "url": "https://uaelegislation.gov.ae/en/legislations/2670",
+      "file": "corpus_local/uae/_incoming/U10_en.pdf",
+      "media": "pdf",
+      "url_basis": "official portal address; refused a scripted client (HTTP 403) on 2026-10-27",
+      "sha256": null,
+      "bytes": null,
+      "republish": "link_only",
+      "access": "manual",
+      "manual_reason": "not yet obtained: the host refused a scripted client; download it in a browser, then the hash is recorded here after review"
+    }
+  ]
+}

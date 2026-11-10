@@ -1,0 +1,74 @@
+{
+  "kind": "cases",
+  "split": "dev",
+  "labels_sha256": "40a950351ff458f5a64f831bc02080e312e2e8ce2dc04feb11485a444f397163",
+  "kb_version": "kb-b08e7cfac2df",
+  "freeze_sha256": null,
+  "started_at": "2026-11-05T17:38:06.725240Z",
+  "case_ids": [
+    "PC01",
+    "PC03",
+    "PC05",
+    "PC07",
+    "PC09",
+    "PC11",
+    "PC13",
+    "PC15",
+    "PC17",
+    "PC19",
+    "PC21"
+  ],
+  "models": {
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "code_version": "82c4576",
+  "test_double": false,
+  "cost": {
+    "test_double": false,
+    "ledger_id": "20261105T123803-a5badfd5",
+    "calls": 11,
+    "input_tokens": 42447,
+    "output_tokens": 7605,
+    "cost_usd": 0.008047,
+    "reserved_usd": 0.0,
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.009852
+  },
+  "stopped": null,
+  "model_rejections": [],
+  "baseline_threshold": 0.35,
+  "code_tree_sha256": "fb4718023db39b6f19e23478111769d434f9433a52ddfa7f51735ad6ea1abeaa",
+  "applicability_sha256": "90c4e7fd652f4bc7e999cb4645cf9c61c27c76fcebc4a5a3b73fda032913e3e1",
+  "digest": {
+    "count": 24,
+    "last_hash": "ab370776ec05defb29a6a9d789c748788c23aabad9b9bb3845aaa8fba641d452"
+  }
+}

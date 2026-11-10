@@ -1,0 +1,6 @@
+{
+  "PC04": {"blocked_on": "Expected ANSWER rests on a non-binding source (U15, Smart Data Framework Principle 3); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC09": {"blocked_on": "Expected ANSWER rests on a non-binding source (U16, a guide to the official portal); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC10": {"blocked_on": "Expected ANSWER rests on a non-binding source (U15, Specification DE6); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC13": {"blocked_on": "The ABSTAIN premise (the governing document is not in the knowledge base) no longer holds: U01 Article 24 (Arabic print edition) lets a data subject complain to the Office. Its quotation cannot be verified in English, so the case cannot be scored fairly until the English text of U01 is in the knowledge base (as for PC16)."}
+}

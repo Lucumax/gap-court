@@ -1,0 +1,47 @@
+{
+  "scenario_id": "S-01",
+  "title": "Core: deployment, second-purpose request, complaint (SYNTHETIC)",
+  "synthetic": true,
+  "author_note": "Author-made. Entities are simulated: Federal Household Benefit Service (FHBS), Dubai Population Records Office (DPRO), Complaints and Oversight Office. Expected rulings are candidates for Walter's review, kept in hidden and never shown to roles.",
+  "steps": [
+    {
+      "step_id": "S01-1",
+      "addressees": [
+        "service",
+        "adviser"
+      ],
+      "text": "Step 1. The simulated Federal Household Benefit Service (FHBS) is live and popular. It proposes an AI eligibility pre-check that uses household and employment records held by the simulated Dubai Population Records Office (DPRO). The records were collected when residents registered for housing services. A human officer finalizes every decision. The service asks whether the pre-check may use these records.",
+      "hidden": {
+        "contradicts_prior": false,
+        "expected_candidate": "ESCALATE",
+        "decider_candidate": "oversight office"
+      }
+    },
+    {
+      "step_id": "S01-2",
+      "addressees": [
+        "adviser",
+        "custodian"
+      ],
+      "text": "Step 2. The FHBS asks the DPRO to release the registry fields for a second purpose: pre-screening applicants for a separate housing allowance. The DPRO states that the records were collected for housing registration only.",
+      "hidden": {
+        "contradicts_prior": true,
+        "expected_candidate": "DENY",
+        "decider_candidate": "human officer"
+      }
+    },
+    {
+      "step_id": "S01-3",
+      "addressees": [
+        "adviser",
+        "oversight"
+      ],
+      "text": "Step 3. A resident complains that the pre-check proposed a denial based on an inferred household-composition attribute, and that nobody told them an automated pre-check was used. The Complaints and Oversight Office asks what rules apply.",
+      "hidden": {
+        "contradicts_prior": true,
+        "expected_candidate": "ESCALATE",
+        "decider_candidate": "oversight office"
+      }
+    }
+  ]
+}

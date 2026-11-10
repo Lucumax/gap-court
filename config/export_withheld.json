@@ -1,0 +1,15 @@
+{
+  "note": "Files of saved live runs left out of the public export because they quote more link-only text than the export allows (40 words). Each entry names the file, its sha256 at the time it was withheld and the reason. scripts/release_export.py refuses to run if a file's hash no longer matches. The files stay in the working repository and verify there.",
+  "withheld": [
+    {
+      "path": "runs/heldout/20261110T092416Z/log.jsonl",
+      "sha256": "fc8844e10f7d8c2547e7c1049b7cbe3d385bbda0c3700c52420f5c7d2d69e280",
+      "reason": "record 2 (case PC02) carries the model's verified quotation of U12 Article 34, 56 words of a link-only source"
+    },
+    {
+      "path": "runs/heldout/20261110T092416Z/trace.html",
+      "sha256": "a64fd9e209e9d841e3630c449376296bf34f457df41ddd104b11e01505498d6c",
+      "reason": "the trace page shows the same 56-word quotation"
+    }
+  ]
+}

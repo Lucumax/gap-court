@@ -1,0 +1,82 @@
+{
+  "kind": "scenario",
+  "started_at": "2026-11-10T09:25:05.955349Z",
+  "scenario_id": "S-04",
+  "synthetic": true,
+  "kb_version": "kb-6b62e9ecc91c",
+  "rulings": [
+    {
+      "step_id": "S04-1",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    },
+    {
+      "step_id": "S04-2",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    }
+  ],
+  "revisions": [],
+  "gaps": [],
+  "model_rejections": [],
+  "models": {
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "cost": {
+    "test_double": false,
+    "calls": 2,
+    "input_tokens": 7943,
+    "output_tokens": 2569,
+    "cost_usd": 0.002079,
+    "reserved_usd": 0.0,
+    "ledger_ids": [
+      "20261110T042502-59c5a973"
+    ],
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.027582
+  },
+  "test_double": false,
+  "stopped": null,
+  "code_version": "c0cf7ac+dirty",
+  "code_tree_sha256": "3e6ebd9d7a0938b9120b1227ee495b676a32cce15816334b1be371ecb7c3d9c0",
+  "note": "retain digest.json separately from log.jsonl; record count and last hash are the check",
+  "applicability_sha256": "b4b61abdc25699f52ad468c5464add1156e8c9c2810f3012889804bfeb567652",
+  "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d",
+  "scenario_file_sha256": "d90a5b269806cfbc643fb1e922be936ae05c56999a0c645fe77ee52e8c760095",
+  "digest": {
+    "count": 10,
+    "last_hash": "d3986e2a0d45cc7b7e23bf169567a21de3873694bbed6a74fdc3003ac1006af4"
+  }
+}

@@ -1,0 +1,37 @@
+Gap Court (MIT licence, see LICENSE) includes and adapts code from the ITU AI Readiness reference repository.
+
+Source:   https://github.com/CrashingGuru/ITUAIReadiness
+Commit:   84010da9e9c443afcceeccb86d1700a662223395 (2026-10-20), retrieved 2026-11-01
+Licence:  MIT, Copyright (c) 2026 Vishnu Ram OV. The licence text is kept unchanged in third_party/itu_reference/LICENSE.
+Named by: the event page for the AI for Good Lab Hackathon, United Arab Emirates, as the reference code for knowledge base creation.
+
+Independent entry. Not affiliated with or endorsed by ITU.
+
+Vendored, unmodified (third_party/itu_reference/, sha256 in SHA256SUMS.txt, verified by tests):
+  LICENSE
+  simulation/server/knowledge/ingest.py
+  simulation/server/knowledge/kb.py
+  simulation/server/knowledge/dimensions.py
+  simulation/server/config.py
+  simulation/requirements.txt
+
+Adapted (src/gapcourt/itu_adapter.py). Each function below is the reference function with only the listed changes. Tests run the
+vendored original and the adapted version on the same input and compare outputs (tests/test_itu_adapter.py):
+
+  chunk_text           unchanged logic; the default chunk size (256 words) and overlap (30) are inlined from server/config.py
+                       instead of read from the pydantic settings object.
+  infer_source_type    unchanged. infer_country: unchanged. _strip_html: unchanged. build_metadata: unchanged.
+  embed_texts          unchanged logic (batches of 16, 2,000-character pre-truncation, one-at-a-time fallback, 4,000-character
+                       last resort). The `ollama` package is imported lazily and the client can be passed in, so the function
+                       can be tested without a server. A failure of the last resort is raised as EmbedderUnavailable with a plain
+                       message.
+  _parse_pdf           the PyMuPDF path only. The docling path is removed (out of scope for this entry, not installed).
+  KnowledgeBase        reduced to ChromaStore: add, search, count, stats and reset over named collections with cosine distance
+                       and telemetry off. `chromadb` is imported lazily. Collections are named by the caller (kb_uae, kb_global,
+                       kb_framework) instead of the reference names kb_main, kb_decisions, kb_framework, kb_usecase; ids are the
+                       stable chunk ids of this repository instead of random UUIDs. The reference search_by_* helpers and the
+                       decision store are not used.
+
+Not used: ingest_directory, ingest_usecase_docs, ingest_framework_definitions, the CLI, the agents, the game engine.
+The chunk boundaries and locators of this repository (src/gapcourt/chunking.py) are not the reference chunker's: the reference
+chunker splits by word count and loses article locators, so it is kept for parity only and is not used to build the knowledge base.

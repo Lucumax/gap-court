@@ -1,0 +1,19 @@
+{
+  "scenario_id": "S-03",
+  "title": "Corpus trap: the same question with and without a governing instrument (SYNTHETIC)",
+  "synthetic": true,
+  "author_note": "Run once on the real KB and once on a KB variant with a SYNTHETIC added clause labelled SYNTHETIC; the variant never mixes with the real KB.",
+  "steps": [
+    {
+      "step_id": "S03-1",
+      "addressees": [
+        "adviser"
+      ],
+      "text": "Step 1. The FHBS asks what household income threshold makes a family eligible for the benefit.",
+      "hidden": {
+        "contradicts_prior": false,
+        "expected_candidate": "GAP (corpus coverage gap) without the benefit instrument; ANSWER with it"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scenario_id": "S-02",
+  "title": "Controversy: sources disagree, and an unambiguous exclusion (SYNTHETIC)",
+  "synthetic": true,
+  "author_note": "Author-made. Step 1 is the disagreement case: correct output is 'sources disagree' and escalation. Step 2 is the exclusion case; it rests on Article 2 of the official English text of the federal personal data decree-law (U01EN).",
+  "steps": [
+    {
+      "step_id": "S02-1",
+      "addressees": [
+        "service",
+        "custodian",
+        "adviser"
+      ],
+      "text": "Step 1. The FHBS relies on a federal once-only policy to justify pulling a resident's records from the DPRO. The DPRO relies on the Dubai exchange rules and says consent must come first. Both ask for a ruling.",
+      "hidden": {
+        "contradicts_prior": false,
+        "expected_candidate": "ESCALATE",
+        "decider_candidate": "oversight office"
+      }
+    },
+    {
+      "step_id": "S02-2",
+      "addressees": [
+        "adviser"
+      ],
+      "text": "Step 2. The FHBS asks whether the federal personal data law's right to object to automated decisions covers its eligibility pre-check.",
+      "hidden": {
+        "contradicts_prior": false,
+        "expected_candidate": "SCOPE_FINDING: instrument does not apply, per Article 2"
+      }
+    }
+  ]
+}

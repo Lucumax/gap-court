@@ -1,0 +1,477 @@
+{
+ "files": [
+  {
+   "doc_id": "G2",
+   "path": "corpus/global/G2.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G2/ai_act_cellar_32024R1689.xhtml",
+   "detail": "153 content lines found in raw (153 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 153,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 11,
+     "headings": 11,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [],
+    "content_lines": 153,
+    "raw_files": [
+     "ai_act_cellar_32024R1689.xhtml",
+     "ai_act_cellar_32024R1689.pdf",
+     "omnibus_cellar_32026R1744.xhtml",
+     "reuse_decision_2011_833_cellar.xhtml"
+    ],
+    "matches_by_source": {
+     "ai_act_cellar_32024R1689.xhtml": 153,
+     "ai_act_cellar_32024R1689.pdf": 0,
+     "omnibus_cellar_32026R1744.xhtml": 0,
+     "reuse_decision_2011_833_cellar.xhtml": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G2A",
+   "path": "corpus/global/G2A.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G2/omnibus_cellar_32026R1744.xhtml",
+   "detail": "25 content lines found in raw (25 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 25,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 1,
+     "headings": 2,
+     "omission_marks": 3
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [],
+    "content_lines": 25,
+    "raw_files": [
+     "omnibus_cellar_32026R1744.xhtml",
+     "ai_act_cellar_32024R1689.pdf",
+     "ai_act_cellar_32024R1689.xhtml",
+     "reuse_decision_2011_833_cellar.xhtml"
+    ],
+    "matches_by_source": {
+     "omnibus_cellar_32026R1744.xhtml": 25,
+     "ai_act_cellar_32024R1689.pdf": 0,
+     "ai_act_cellar_32024R1689.xhtml": 0,
+     "reuse_decision_2011_833_cellar.xhtml": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G3",
+   "path": "corpus/global/G3.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G3/gdpr_cellar_32016R0679.xhtml",
+   "detail": "130 content lines found in raw (130 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 130,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 1,
+     "headings": 13,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Recital 50",
+     "Recital 71"
+    ],
+    "content_lines": 130,
+    "raw_files": [
+     "gdpr_cellar_32016R0679.xhtml"
+    ],
+    "matches_by_source": {
+     "gdpr_cellar_32016R0679.xhtml": 130
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G7",
+   "path": "corpus/global/G7.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/G7/m2521.pdf",
+   "detail": "recorded transform: pymupdf_lines, 15 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U01",
+   "path": "corpus_local/uae/U01.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U01/pdpl_ar_u.ae.pdf",
+   "detail": "pypdfium2 text layer, Arabic article headings, running headers dropped",
+   "audit": null
+  },
+  {
+   "doc_id": "U06",
+   "path": "corpus_local/uae/U06.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+   "detail": "recorded transform: pymupdf_lines, 21 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U08",
+   "path": "corpus_local/uae/U08.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U08/U08_checked_transcription.txt",
+   "detail": "recorded transform: text_lines, 9 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U11",
+   "path": "corpus_local/uae/U11.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U11/dubai_law24_2023_en.pdf",
+   "detail": "recorded transform: pymupdf_lines, 21 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U12",
+   "path": "corpus_local/uae/U12.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+   "detail": "recorded transform: html_blocks, 48 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U13",
+   "path": "corpus_local/uae/U13.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U13/dubai_ecres50_2024_en.html",
+   "detail": "recorded transform: html_blocks, 11 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U15",
+   "path": "corpus_local/uae/U15.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U15/smart_data_framework_part1_en.docx",
+   "detail": "recorded transform: pymupdf_lines, 34 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "U16",
+   "path": "corpus_local/uae/U16.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/U16/guide_access_gov_information_en.docx",
+   "detail": "recorded transform: pymupdf_lines, 9 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "G1",
+   "path": "corpus_local/global/G1.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G1/directive.html",
+   "detail": "185 content lines found in raw (41 exact, 39 whitespace, 0 typography, 67 enumerator, 38 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 41,
+     "whitespace": 39,
+     "typography": 0,
+     "enumerator": 67,
+     "labelled": 38
+    },
+    "structural": {
+     "page_markers": 1,
+     "headings": 6,
+     "omission_marks": 2
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Section 1",
+     "Section 5"
+    ],
+    "content_lines": 185,
+    "raw_files": [
+     "directive.html"
+    ],
+    "matches_by_source": {
+     "directive.html": 185
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G4",
+   "path": "corpus_local/global/G4.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G4/rm_coe_1680afae3c.pdf",
+   "detail": "43 content lines found in raw (13 exact, 0 whitespace, 0 typography, 30 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 13,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 30,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 8,
+     "headings": 8,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [],
+    "content_lines": 43,
+    "raw_files": [
+     "rm_coe_1680afae3c.pdf",
+     "cdnet_2026_r1.pdf",
+     "coe_eu_ratifies.html",
+     "eu_council_decision_2026_1080.xhtml",
+     "treaty225.html"
+    ],
+    "matches_by_source": {
+     "rm_coe_1680afae3c.pdf": 43,
+     "cdnet_2026_r1.pdf": 0,
+     "coe_eu_ratifies.html": 0,
+     "eu_council_decision_2026_1080.xhtml": 0,
+     "treaty225.html": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G5",
+   "path": "corpus_local/global/G5.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G5/oecd_legal_0449_body_en.htm",
+   "detail": "29 content lines found in raw (29 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 29,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 1,
+     "headings": 6,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Part: Definitions and Section 1 chapeau",
+     "Principle 1.1",
+     "Principle 1.2",
+     "Principle 1.3",
+     "Principle 1.4",
+     "Principle 1.5"
+    ],
+    "content_lines": 29,
+    "raw_files": [
+     "oecd_legal_0449_body_en.htm",
+     "oecd.html",
+     "oecd_legal_0449.json",
+     "oecd_terms.html"
+    ],
+    "matches_by_source": {
+     "oecd_legal_0449_body_en.htm": 29,
+     "oecd.html": 0,
+     "oecd_legal_0449.json": 0,
+     "oecd_terms.html": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "G6",
+   "path": "corpus_local/global/G6.md",
+   "status": "REPRODUCED",
+   "raw": "corpus_local/_raw/G6/sgmodelaigovframework2.pdf",
+   "detail": "recorded transform: pymupdf_lines, 14 patch hunks",
+   "audit": null
+  },
+  {
+   "doc_id": "G8",
+   "path": "corpus_local/global/G8.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/G8/sgb_10_xml.zip",
+   "detail": "49 content lines found in raw (49 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 49,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 1,
+     "headings": 9,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Section 31a",
+     "Section 35",
+     "Section 67c",
+     "Section 24",
+     "Section 35a",
+     "Section 37",
+     "Section 39"
+    ],
+    "content_lines": 49,
+    "raw_files": [
+     "sgb_10_xml.zip",
+     "de_vwvfg_35a.html",
+     "de_vwvfg_full.html",
+     "fr_L311-3-1.html",
+     "gii_impressum.html",
+     "gii_nutzung.html",
+     "sgbx_31a.html",
+     "sgbx_35.html",
+     "sgbx_67c.html",
+     "sgbx_index.html",
+     "vwvfg_24.html",
+     "vwvfg_37.html",
+     "vwvfg_39.html",
+     "vwvfg_index.html",
+     "vwvfg_xml.zip"
+    ],
+    "matches_by_source": {
+     "sgb_10_xml.zip": 36,
+     "de_vwvfg_35a.html": 2,
+     "de_vwvfg_full.html": 11,
+     "fr_L311-3-1.html": 0,
+     "gii_impressum.html": 0,
+     "gii_nutzung.html": 0,
+     "sgbx_31a.html": 0,
+     "sgbx_35.html": 0,
+     "sgbx_67c.html": 0,
+     "sgbx_index.html": 0,
+     "vwvfg_24.html": 0,
+     "vwvfg_37.html": 0,
+     "vwvfg_39.html": 0,
+     "vwvfg_index.html": 0,
+     "vwvfg_xml.zip": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "F1",
+   "path": "corpus_local/framework/F1.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/F1/y3172.pdf",
+   "detail": "40 content lines found in raw (40 exact, 0 whitespace, 0 typography, 0 enumerator, 0 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 40,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 0,
+     "labelled": 0
+    },
+    "structural": {
+     "page_markers": 4,
+     "headings": 2,
+     "omission_marks": 1
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Clause 3.2"
+    ],
+    "content_lines": 40,
+    "raw_files": [
+     "y3172.pdf"
+    ],
+    "matches_by_source": {
+     "y3172.pdf": 40
+    },
+    "unverified_raw_files_ignored": []
+   }
+  },
+  {
+   "doc_id": "F2",
+   "path": "corpus_local/framework/F2.md",
+   "status": "AUDITED",
+   "raw": "corpus_local/_raw/F2/AI_Ready_Framework_2025.pdf",
+   "detail": "30 content lines found in raw (15 exact, 0 whitespace, 0 typography, 13 enumerator, 2 labelled), 0 registered edits",
+   "audit": {
+    "tiers": {
+     "verbatim": 15,
+     "whitespace": 0,
+     "typography": 0,
+     "enumerator": 13,
+     "labelled": 2
+    },
+    "structural": {
+     "page_markers": 15,
+     "headings": 3,
+     "omission_marks": 0
+    },
+    "registered_edits": 0,
+    "unmatched": [],
+    "headings_unverified": [
+     "Part: Structural Approach (factors and dimensions)",
+     "Part: The 13 dimensions (headings as printed in the report)",
+     "Part: dimensions.json (names as spelled in the reference repository file simulation/data/framework/dimensions.json)"
+    ],
+    "content_lines": 30,
+    "raw_files": [
+     "AI_Ready_Framework_2025.pdf",
+     "contents.json",
+     "dimensions.json",
+     "dimensions.py",
+     "last_commit.json",
+     "LICENSE",
+     "README.md",
+     "sim_README.md"
+    ],
+    "matches_by_source": {
+     "AI_Ready_Framework_2025.pdf": 26,
+     "contents.json": 0,
+     "dimensions.json": 4,
+     "dimensions.py": 0,
+     "last_commit.json": 0,
+     "LICENSE": 0,
+     "README.md": 0,
+     "sim_README.md": 0
+    },
+    "unverified_raw_files_ignored": []
+   }
+  }
+ ],
+ "reproduced": 10,
+ "audited": 9,
+ "failing": [],
+ "tiers": {
+  "verbatim": "the line, with whitespace runs collapsed, is a substring of the raw text",
+  "whitespace": "equal once all whitespace is removed (inline markup rendered with or without a space)",
+  "typography": "equal once curly quotes, dash variants, non-breaking and zero-width characters are folded",
+  "enumerator": "equal once a leading list number or bullet (rendered from list markup or a separate line) is removed",
+  "labelled": "'Label: text' where the label and the text are each found in the raw text (flattened table rows, glossary entries, key-value renderings)"
+ }
+}

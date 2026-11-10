@@ -1,0 +1,225 @@
+{
+  "stamp": {
+    "split": "dev",
+    "labels_file": "pilot_cases_DRAFT.jsonl",
+    "labels_sha256": "732fdb4c54cfcf38dac48ccc20fb6978fa9db85a3b6e5b99f52ff977905cb066",
+    "label_status": "DRAFT_UNAPPROVED labels present: machinery check, not a result",
+    "freeze_sha256": null,
+    "kb_version": "kb-b08e7cfac2df",
+    "models": [
+      "claude-haiku-5-5"
+    ],
+    "efforts": [
+      "medium"
+    ],
+    "code_version_scoring": "e9943e5",
+    "run_code_versions": [
+      "1c4c063",
+      "fa2335b"
+    ],
+    "run_ids": [
+      "dev/20261102T102235Z@c02e09357f10",
+      "smoke/S-03-20261102T014545Z@c0dd303a173a"
+    ],
+    "test_double": false,
+    "banner": null,
+    "code_differs_from_freeze": [],
+    "scored_at": "2026-11-02T10:35:16Z"
+  },
+  "rows": {
+    "outcome_agreement": {
+      "system": {
+        "agree": 6,
+        "n": 10,
+        "by_category": {
+          "answerable": {
+            "agree": 3,
+            "n": 3
+          },
+          "paraphrase_trap": {
+            "agree": 0,
+            "n": 2
+          },
+          "missing_document": {
+            "agree": 1,
+            "n": 2
+          },
+          "ambiguity": {
+            "agree": 1,
+            "n": 2
+          },
+          "candidate_gap": {
+            "agree": 1,
+            "n": 1
+          }
+        }
+      },
+      "baseline": {
+        "agree": 3,
+        "n": 10,
+        "by_category": {
+          "answerable": {
+            "agree": 1,
+            "n": 3
+          },
+          "paraphrase_trap": {
+            "agree": 0,
+            "n": 2
+          },
+          "missing_document": {
+            "agree": 2,
+            "n": 2
+          },
+          "ambiguity": {
+            "agree": 0,
+            "n": 2
+          },
+          "candidate_gap": {
+            "agree": 0,
+            "n": 1
+          }
+        }
+      },
+      "excluded_exposed": [],
+      "run_id": "dev/20261102T102235Z@c02e09357f10",
+      "missing_cases": [],
+      "blocked_cases": [],
+      "baseline_name": "retrieval plus abstain threshold (no roles, no gate)"
+    },
+    "false_findings": {
+      "system": {
+        "false_gap": {
+          "k": 2,
+          "n": 5
+        },
+        "false_answer": {
+          "k": 0,
+          "n": 3
+        }
+      },
+      "baseline": {
+        "false_gap": {
+          "k": 0,
+          "n": 5
+        },
+        "false_answer": {
+          "k": 0,
+          "n": 3
+        }
+      }
+    },
+    "retrieval_top5": {
+      "bm25": {
+        "all": {
+          "hit": 3,
+          "n": 7
+        },
+        "answerable": {
+          "hit": 1,
+          "n": 3
+        },
+        "paraphrase_trap": {
+          "hit": 1,
+          "n": 2
+        },
+        "ambiguity": {
+          "hit": 1,
+          "n": 2
+        }
+      },
+      "vector": {
+        "all": {
+          "hit": 3,
+          "n": 7
+        },
+        "answerable": {
+          "hit": 3,
+          "n": 3
+        },
+        "paraphrase_trap": {
+          "hit": 0,
+          "n": 2
+        },
+        "ambiguity": {
+          "hit": 0,
+          "n": 2
+        }
+      },
+      "hybrid": {
+        "all": {
+          "hit": 3,
+          "n": 7
+        },
+        "answerable": {
+          "hit": 3,
+          "n": 3
+        },
+        "paraphrase_trap": {
+          "hit": 0,
+          "n": 2
+        },
+        "ambiguity": {
+          "hit": 0,
+          "n": 2
+        }
+      }
+    },
+    "scenario_steps": [
+      {
+        "run_id": "smoke/S-03-20261102T014545Z@c0dd303a173a",
+        "scenario_id": "S-03",
+        "frozen": false,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "stopped": null,
+        "matched": 1,
+        "n": 1,
+        "steps": [
+          {
+            "step_id": "S03-1",
+            "expected": "GAP",
+            "observed": "GAP",
+            "match": true
+          }
+        ],
+        "blocked": []
+      }
+    ],
+    "revisions": [
+      {
+        "run_id": "smoke/S-03-20261102T014545Z@c0dd303a173a",
+        "scenario_id": "S-03",
+        "frozen": false,
+        "exposed": false,
+        "scenario_file_changed": false,
+        "stopped": null,
+        "revised": 0,
+        "contradicting": 0,
+        "stale": 0
+      }
+    ],
+    "judge_added_runs": [],
+    "quotations": {
+      "kept": 9,
+      "dropped": 0,
+      "dropped_by_reason": {},
+      "note": "kept means the quotation was found in the cited passage; it is not a legal interpretation"
+    },
+    "model_rejections": {
+      "by_reason": {},
+      "calls": 11,
+      "input_tokens": 39425,
+      "output_tokens": 8149,
+      "usd": 0.008017
+    },
+    "kb_release": {
+      "note": "no KB-release receipt saved under the runs folder"
+    }
+  },
+  "excluded_runs": [
+    {
+      "run": "smoke/dev3-20261102T014545Z@7282a1b5219e",
+      "reason": "another dev run; the latest run covering the most dev cases is the one reported"
+    }
+  ]
+}

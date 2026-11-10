@@ -1,0 +1,23 @@
+{
+  "backend": "anthropic",
+  "model_id": "claude-haiku-5-5",
+  "max_tokens": 16000,
+  "effort": "medium",
+  "thinking": {"type": "adaptive", "display": "summarized"},
+  "structured_output": true,
+  "max_retries": 2,
+  "timeout_s": 600,
+  "run_cap_usd": 2.0,
+  "total_cap_usd": 18.0,
+  "prices_usd_per_mtok": {
+    "claude-haiku-5-5": {"input": 0.10, "output": 0.50, "long_input": 0.50, "long_output": 2.50,
+                         "long_threshold_input_tokens": 100000},
+    "claude-sonnet-5-5": {"input": 2.00, "output": 10.00}
+  },
+  "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+  "notes": [
+    "One model for every reported run. Sampling parameters are never sent.",
+    "run_cap_usd is checked before every call against a worst-case estimate; total_cap_usd counts saved runs under the runs folder and stays below the USD 20 Console limit.",
+    "thinking.display and structured_output are confirmed by gapcourt probe-model before any scored run; a change is recorded here by that command."
+  ]
+}

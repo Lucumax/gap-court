@@ -1,0 +1,40 @@
+{
+  "scenario_id": "S-04",
+  "title": "Development demonstration: a later fact changes the warranted recommendation (SYNTHETIC)",
+  "synthetic": true,
+  "development_demonstration": true,
+  "author_note": "Author-made, SYNTHETIC entities. Development demonstration of one revision (previous recommendation, new fact, revised recommendation, reason). Not part of the frozen scenarios, run once in the development session, reported separately and never counted with S-01 and S-02. Expected rulings are candidates for Walter's review (unapproved). Basis passages are already in the knowledge base; no law is added.",
+  "basis": [
+    {"doc_id": "U12", "locator": "Article 23", "quote": "seek the consent of individuals and Private Entities to use, store, process, and exchange"},
+    {"doc_id": "U12", "locator": "Article 23", "quote": "by using the collected Data for specific and explicitly stated purposes"},
+    {"doc_id": "U06", "locator": "Article 15", "quote": "Dubai Data may be used only for its intended purposes"}
+  ],
+  "steps": [
+    {
+      "step_id": "S04-1",
+      "addressees": [
+        "adviser"
+      ],
+      "text": "Step 1. The simulated Federal Household Benefit Service (FHBS) asks the simulated Dubai Population Records Office (DPRO) to share one resident's household record for an eligibility pre-check. The record holds personal data. The DPRO reports that nobody has asked this resident for consent to exchange the record with another government entity. May the DPRO share the record?",
+      "hidden": {
+        "contradicts_prior": false,
+        "expected_candidate": "DENY",
+        "decider_candidate": "human officer",
+        "reading": "Resolution 2 of 2017 Article 23 requires a government entity to seek the individual's consent to exchange personal data with other government entities; none has been sought, so the warranted recommendation is not to share yet."
+      }
+    },
+    {
+      "step_id": "S04-2",
+      "addressees": [
+        "adviser"
+      ],
+      "text": "Step 2. The resident has now given written consent, recorded by the DPRO, to exchange this record with the FHBS for the eligibility pre-check. The consent names that purpose. May the DPRO share the record now?",
+      "hidden": {
+        "contradicts_prior": true,
+        "expected_candidate": "ALLOW",
+        "decider_candidate": "human officer",
+        "reading": "The consent that Article 23 asks the entity to seek now exists and states the purpose (Article 23(4), purpose limited to specific and explicitly stated purposes); the new fact removes the reason for step 1."
+      }
+    }
+  ]
+}

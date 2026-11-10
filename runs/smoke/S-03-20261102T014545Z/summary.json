@@ -1,0 +1,126 @@
+{
+  "kind": "scenario",
+  "started_at": "2026-11-02T01:46:19.547467Z",
+  "scenario_id": "S-03",
+  "synthetic": true,
+  "kb_version": "kb-b08e7cfac2df",
+  "rulings": [
+    {
+      "step_id": "S03-1",
+      "decision": "GAP",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "human officer",
+      "model_rejections": []
+    }
+  ],
+  "revisions": [],
+  "gaps": [
+    {
+      "gap_type": "corpus_coverage_gap",
+      "requirement": "The journey needs the FHBS household income threshold and benefit eligibility criteria from the governing benefit instrument, which are absent from the retrieved passages.",
+      "queries": [
+        "[step 1] Step 1. The FHBS asks what household income threshold makes a family eligible for the benefit. which instrument governs this use of personal records and who decides"
+      ],
+      "kb_version": "kb-b08e7cfac2df",
+      "scope": "kb_uae",
+      "step_id": "S03-1",
+      "passages": [
+        {
+          "chunk_id": "U15-c8062f37fa",
+          "text_sha256": "18ef30a5e8cd0653a39e6f8a486d92fd8e3bb7880de86b605dbca56e85c89070",
+          "cite": "U15 Part: Appendix A - Glossary",
+          "collection": "kb_uae",
+          "score": 0.031258
+        },
+        {
+          "chunk_id": "U13-77243951db",
+          "text_sha256": "9ee0fdb912cacbeff17835d70a04d78ca457119016c13d9ff60cc227dd7fc1fa",
+          "cite": "U13 Article 1",
+          "collection": "kb_uae",
+          "score": 0.029911
+        },
+        {
+          "chunk_id": "U15-881075db8a",
+          "text_sha256": "f5d131d8f7ee61696c5d586b4d68db64e142fa941aa3149dc89acde51b2d8268",
+          "cite": "U15 Part: Specification DE6",
+          "collection": "kb_uae",
+          "score": 0.029139
+        },
+        {
+          "chunk_id": "U13-ed451488bb",
+          "text_sha256": "d5ee9f3bb0424d80d5031d47f0d496e3abfe4be76c1ef703e4eab54bcf391bc4",
+          "cite": "U13 Article 1",
+          "collection": "kb_uae",
+          "score": 0.028439
+        },
+        {
+          "chunk_id": "U15-c9c007d9d1",
+          "text_sha256": "82e5fd85a98834cbc0e9e797b9997a5e7bb38ef958e10b25613136001255c18f",
+          "cite": "U15 Part: Appendix A - Glossary",
+          "collection": "kb_uae",
+          "score": 0.028177
+        }
+      ],
+      "reviewer": null,
+      "note": null,
+      "bounded_finding": "No applicable governing passage was found in KB version kb-b08e7cfac2df, within scope kb_uae, using the recorded searches (1).",
+      "caveat": "Not reviewed by an analyst."
+    }
+  ],
+  "model_rejections": [],
+  "models": {
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "cost": {
+    "test_double": false,
+    "calls": 1,
+    "input_tokens": 3492,
+    "output_tokens": 400,
+    "cost_usd": 0.000549,
+    "reserved_usd": 0.0,
+    "ledger_ids": [
+      "20261101T204611-94de4fc8"
+    ],
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.000154
+  },
+  "test_double": false,
+  "stopped": null,
+  "code_version": "fa2335b",
+  "code_tree_sha256": "9d9c15188a277c1867fb5b50b7e4c7315b18f61244dea75e50431c8d413e4dac",
+  "note": "retain digest.json separately from log.jsonl; record count and last hash are the check",
+  "freeze_sha256": null,
+  "scenario_file_sha256": "1dd471aeaf9514c2c3ca36f982bbb353f5f4b9d04e9cf749e338017e4dea5611",
+  "digest": {
+    "count": 7,
+    "last_hash": "c0dd303a173a3835bcae0324ba451fc88f3159e97cddef39f271022765477219"
+  }
+}

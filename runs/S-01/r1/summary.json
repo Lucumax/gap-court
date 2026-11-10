@@ -1,0 +1,189 @@
+{
+  "kind": "scenario",
+  "started_at": "2026-11-10T09:26:00.376122Z",
+  "scenario_id": "S-01",
+  "synthetic": true,
+  "kb_version": "kb-6b62e9ecc91c",
+  "rulings": [
+    {
+      "step_id": "S01-1",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    },
+    {
+      "step_id": "S01-2",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    },
+    {
+      "step_id": "S01-3",
+      "decision": "ESCALATE",
+      "reason": "adviser assessment stands; no conflict among firm assessments",
+      "final_authority": "oversight office",
+      "model_rejections": []
+    }
+  ],
+  "revisions": [],
+  "gaps": [
+    {
+      "gap_type": "corpus_coverage_gap",
+      "requirement": "An instrument stating whether household and employment records collected for housing-service registration may be reused by FHBS for an AI eligibility pre-check, including any purpose-limitation, consent, or data-sharing conditions and any required human review.",
+      "queries": [
+        "[step 1] Step 1. The simulated Federal Household Benefit Service (FHBS) is live and popular. It proposes an AI eligibility pre-check that uses household and employment records held by the simulated Dubai Population Records Office (DPRO). The records were collected when residents registered for housing services. A human officer finalizes every decision. The service asks whether the pre-check may use these records."
+      ],
+      "kb_version": "kb-6b62e9ecc91c",
+      "scope": "",
+      "step_id": "S01-1",
+      "passages": [],
+      "reviewer": null,
+      "note": null,
+      "bounded_finding": "No applicable governing passage was found in KB version kb-6b62e9ecc91c, within scope , using the recorded searches (1).",
+      "caveat": "Not reviewed by an analyst."
+    }
+  ],
+  "model_rejections": [],
+  "models": {
+    "service": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "custodian": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "oversight": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "cost": {
+    "test_double": false,
+    "calls": 6,
+    "input_tokens": 21744,
+    "output_tokens": 7191,
+    "cost_usd": 0.00577,
+    "reserved_usd": 0.0,
+    "ledger_ids": [
+      "20261110T042557-b6c15c82"
+    ],
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.035755
+  },
+  "test_double": false,
+  "stopped": null,
+  "code_version": "c0cf7ac+dirty",
+  "code_tree_sha256": "3e6ebd9d7a0938b9120b1227ee495b676a32cce15816334b1be371ecb7c3d9c0",
+  "note": "retain digest.json separately from log.jsonl; record count and last hash are the check",
+  "applicability_sha256": "b4b61abdc25699f52ad468c5464add1156e8c9c2810f3012889804bfeb567652",
+  "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d",
+  "scenario_file_sha256": "469754681d1e82528ae0fbc0dc6b1eef84334ae4819c246c6d650b9eafddda42",
+  "digest": {
+    "count": 18,
+    "last_hash": "3b8f4cf4d9d93908eba7a940beb280506bd38e536d56d770ddd588f30d23d046"
+  }
+}

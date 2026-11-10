@@ -1,0 +1,45 @@
+{
+  "model_id": "claude-haiku-5-5",
+  "attempts": [
+    {
+      "variant": "as configured",
+      "result": "accepted",
+      "call": {
+        "model_id": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "input_tokens": 977,
+          "output_tokens": 59,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 0.0001272,
+        "effort": "medium",
+        "reasoning_summary": {
+          "label": "no summary"
+        },
+        "rejection": null,
+        "retries": [],
+        "request_id": "req_011Cgu1FgcAodUWSQnzcx8pi",
+        "raw_text_sha256": "de7c2a2dc3a3fb25bad5f731bcc459bd5fc0941ab5ef0dc9a7e5fa0be36ac55c"
+      }
+    }
+  ],
+  "accepted": "as configured",
+  "schema": "ASSESSMENT_SCHEMA (the one every role call sends)",
+  "schema_sha256": "a3104629a8378c1c92de3855a0fc40b3068b4b44021cf245c17c70b74b43b565",
+  "test_double": false,
+  "cost": {
+    "test_double": false,
+    "ledger_id": "20261110T042403-d7182ea0",
+    "calls": 1,
+    "input_tokens": 977,
+    "output_tokens": 59,
+    "cost_usd": 0.000127,
+    "reserved_usd": 0.0,
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.020457
+  },
+  "code_version": "c0cf7ac+dirty"
+}

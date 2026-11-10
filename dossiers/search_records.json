@@ -1,0 +1,327 @@
+{
+  "kb_version": "kb-b08e7cfac2df",
+  "retriever": "hybrid, k=5, collections kb_uae",
+  "searches": {
+    "D1": [
+      {
+        "query": "notice that an automated system was used in a decision about a person",
+        "hits": [
+          {
+            "doc": "U15",
+            "locator": "Part: Appendix A - Glossary",
+            "chunk_id": "U15-c9c007d9d1",
+            "score": 0.02939
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 18",
+            "chunk_id": "U01-a42384216c",
+            "score": 0.01639
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 1 [2]",
+            "chunk_id": "U12-3c7322c765",
+            "score": 0.02921
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 13",
+            "chunk_id": "U01-95596d05e4",
+            "score": 0.01613
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: Appendix A - Glossary",
+            "chunk_id": "U15-8e82a1c044",
+            "score": 0.02749
+          }
+        ]
+      },
+      {
+        "query": "explanation of an automated decision to the person affected",
+        "hits": [
+          {
+            "doc": "U12",
+            "locator": "Article 34",
+            "chunk_id": "U12-eb55db055b",
+            "score": 0.02964
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 18",
+            "chunk_id": "U01-a42384216c",
+            "score": 0.01639
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 20",
+            "chunk_id": "U12-c298c156d7",
+            "score": 0.02715
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 13",
+            "chunk_id": "U01-95596d05e4",
+            "score": 0.01613
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: Appendix A - Glossary",
+            "chunk_id": "U15-0cb173a43c",
+            "score": 0.02633
+          }
+        ]
+      },
+      {
+        "query": "inform the customer which entities used their documents and how",
+        "hits": [
+          {
+            "doc": "U16",
+            "locator": "Section 8",
+            "chunk_id": "U16-3731cd2963",
+            "score": 0.03175
+          },
+          {
+            "doc": "U15",
+            "locator": "Principle 3",
+            "chunk_id": "U15-90c0fe696e",
+            "score": 0.03009
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: 1.4 Structure of the Smart Data",
+            "chunk_id": "U15-ef95c62425",
+            "score": 0.03008
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 1 [2]",
+            "chunk_id": "U12-0477f9c05a",
+            "score": 0.02901
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 23",
+            "chunk_id": "U12-9032fac242",
+            "score": 0.02889
+          }
+        ]
+      }
+    ],
+    "D2": [
+      {
+        "query": "records may be used only for the purpose for which they were collected",
+        "hits": [
+          {
+            "doc": "U06",
+            "locator": "Article 15",
+            "chunk_id": "U06-5255b60b5e",
+            "score": 0.03252
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 23",
+            "chunk_id": "U12-a2ec4aff65",
+            "score": 0.03252
+          },
+          {
+            "doc": "U06",
+            "locator": "Article 2",
+            "chunk_id": "U06-e24b872bb7",
+            "score": 0.02991
+          },
+          {
+            "doc": "U11",
+            "locator": "Article 17",
+            "chunk_id": "U11-5494f163e0",
+            "score": 0.02971
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 17",
+            "chunk_id": "U12-2cc6c915a2",
+            "score": 0.02963
+          }
+        ]
+      },
+      {
+        "query": "consent before exchanging personal data between government entities",
+        "hits": [
+          {
+            "doc": "U12",
+            "locator": "Article 23",
+            "chunk_id": "U12-9032fac242",
+            "score": 0.0266
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 2",
+            "chunk_id": "U01-fd49b3401c",
+            "score": 0.01639
+          },
+          {
+            "doc": "U16",
+            "locator": "Section 5",
+            "chunk_id": "U16-c9d97a6719",
+            "score": 0.02453
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 6",
+            "chunk_id": "U01-b465a1eb09",
+            "score": 0.01613
+          },
+          {
+            "doc": "U16",
+            "locator": "Section 5",
+            "chunk_id": "U16-56db00b4c5",
+            "score": 0.02448
+          }
+        ]
+      },
+      {
+        "query": "federal government entity holding data relating to the emirate",
+        "hits": [
+          {
+            "doc": "U06",
+            "locator": "Article 3",
+            "chunk_id": "U06-86b7213ed7",
+            "score": 0.03279
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 1 [2]",
+            "chunk_id": "U12-10455c13c4",
+            "score": 0.03226
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 3 [2]",
+            "chunk_id": "U12-c8dae5da56",
+            "score": 0.0315
+          },
+          {
+            "doc": "U06",
+            "locator": "Article 12",
+            "chunk_id": "U06-d7840ad1f0",
+            "score": 0.03016
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 1 [2]",
+            "chunk_id": "U12-0477f9c05a",
+            "score": 0.03012
+          }
+        ]
+      }
+    ],
+    "D3": [
+      {
+        "query": "right to obtain human intervention and contest an automated decision",
+        "hits": [
+          {
+            "doc": "U11",
+            "locator": "Article 16",
+            "chunk_id": "U11-c696aceb6f",
+            "score": 0.02832
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 18",
+            "chunk_id": "U01-a42384216c",
+            "score": 0.01639
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 34",
+            "chunk_id": "U12-eb55db055b",
+            "score": 0.02726
+          },
+          {
+            "doc": "U01",
+            "locator": "Article 13",
+            "chunk_id": "U01-95596d05e4",
+            "score": 0.01613
+          },
+          {
+            "doc": "U11",
+            "locator": "Article 7",
+            "chunk_id": "U11-d6eb712e94",
+            "score": 0.0256
+          }
+        ]
+      },
+      {
+        "query": "grievance against a decision within working days committee",
+        "hits": [
+          {
+            "doc": "U12",
+            "locator": "Article 34",
+            "chunk_id": "U12-eb55db055b",
+            "score": 0.03279
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 1 [2]",
+            "chunk_id": "U12-585ba4e6a8",
+            "score": 0.032
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 32",
+            "chunk_id": "U12-44ec9d878a",
+            "score": 0.032
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 20",
+            "chunk_id": "U12-916f1d15c1",
+            "score": 0.03033
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: 3.5 Data Quality Standard",
+            "chunk_id": "U15-c3165506fe",
+            "score": 0.03012
+          }
+        ]
+      },
+      {
+        "query": "complaints and redress mechanism for the person affected",
+        "hits": [
+          {
+            "doc": "U12",
+            "locator": "Article 32",
+            "chunk_id": "U12-cb7e73ba4b",
+            "score": 0.03279
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: Specification DE6",
+            "chunk_id": "U15-881075db8a",
+            "score": 0.03226
+          },
+          {
+            "doc": "U15",
+            "locator": "Part: Appendix A - Glossary",
+            "chunk_id": "U15-66c5c03af3",
+            "score": 0.02904
+          },
+          {
+            "doc": "U12",
+            "locator": "Article 17",
+            "chunk_id": "U12-2cc6c915a2",
+            "score": 0.02869
+          },
+          {
+            "doc": "U06",
+            "locator": "Article 6",
+            "chunk_id": "U06-d3077f48be",
+            "score": 0.02699
+          }
+        ]
+      }
+    ]
+  }
+}

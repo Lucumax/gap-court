@@ -1,0 +1,7 @@
+{
+  "PC04": {"blocked_on": "Expected ANSWER rests on a non-binding source (U15, Smart Data Framework Principle 3); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC09": {"blocked_on": "Expected ANSWER rests on a non-binding source (U16, a guide to the official portal); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC10": {"blocked_on": "Expected ANSWER rests on a non-binding source (U15, Specification DE6); rule R1 makes ALLOW or DENY impossible without a binding quotation. Remove the block only with a changed label or question."},
+  "PC13": {"blocked_on": "The ABSTAIN premise no longer holds: the official English text of U01 (now in the knowledge base) has the complaint route to the Office (\"the Bureau\" in that text, Article 24). The question asks what system the Office runs, which the Data Office decree (U02, not in the knowledge base) governs, and a decisive answer on U01 would need an approved U01EN applicability record; kept blocked (development case, not scored). To score it instead, relabel ANSWER with expected U01EN Article 24 and approve the U01EN record."},
+  "PC16": {"blocked_on": null, "expected": [{"doc_id": "U01EN", "locator": "Article 2"}], "basis_quote": "Provisions of this Decree by Law shall not apply to the following: a. Government Data b. Governmental entities which control or process Personal Data."}
+}

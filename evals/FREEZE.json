@@ -1,0 +1,83 @@
+{
+  "labels_file": "labels_v1.jsonl",
+  "labels_sha256": "8ba759817e35d38fd70fae5a343d789ac676482cfe54b71d6da9edf9923be652",
+  "heldout_case_ids": [
+    "PC02",
+    "PC06",
+    "PC08",
+    "PC12",
+    "PC14",
+    "PC16",
+    "PC18",
+    "PC20"
+  ],
+  "dev_case_ids": [
+    "PC01",
+    "PC03",
+    "PC05",
+    "PC07",
+    "PC11",
+    "PC15",
+    "PC17",
+    "PC19",
+    "PC21"
+  ],
+  "blocked_case_ids": [
+    "PC04",
+    "PC09",
+    "PC10",
+    "PC13"
+  ],
+  "kb_version": "kb-6b62e9ecc91c",
+  "top_k": 5,
+  "fusion": {
+    "rrf_k": 60,
+    "w_bm25": 1.0,
+    "w_vec": 1.0
+  },
+  "abstain_threshold": 0.35,
+  "model_config": {
+    "model_id": "claude-haiku-5-5",
+    "max_tokens": 16000,
+    "effort": "medium",
+    "thinking": {
+      "type": "adaptive",
+      "display": "summarized"
+    },
+    "structured_output": true
+  },
+  "code_version": "c0cf7ac+dirty",
+  "code_tree_sha256": "3e6ebd9d7a0938b9120b1227ee495b676a32cce15816334b1be371ecb7c3d9c0",
+  "applicability_sha256": "b4b61abdc25699f52ad468c5464add1156e8c9c2810f3012889804bfeb567652",
+  "applicability_approved": [
+    "U06",
+    "U11",
+    "U12",
+    "U13"
+  ],
+  "scenarios": {
+    "S-01": {
+      "file": "S-01.json",
+      "sha256": "469754681d1e82528ae0fbc0dc6b1eef84334ae4819c246c6d650b9eafddda42",
+      "expected": {
+        "S01-1": "ESCALATE",
+        "S01-2": "DENY",
+        "S01-3": "ESCALATE"
+      }
+    },
+    "S-02": {
+      "file": "S-02.json",
+      "sha256": "f8c008f51e54990ddfe4cb415c47b18db9460eec0277c0e7de917febbc9cd43f",
+      "expected": {
+        "S02-1": "ESCALATE",
+        "S02-2": "SCOPE_FINDING: instrument does not apply, per Article 2"
+      }
+    }
+  },
+  "exposed_case_ids": [],
+  "reviewer": "Walter Guevara",
+  "reviewed_without_model_answers": true,
+  "single_reviewer_pilot": true,
+  "frozen_at": "2026-11-10T09:19:36.734970Z",
+  "freeze_sha256": "e4afb616c830286fb249b2ba7d79d22534a50e0007f2fca3061dbad8a5d73a6d"
+}

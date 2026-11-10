@@ -1,0 +1,72 @@
+{
+  "kind": "cases",
+  "split": "dev",
+  "labels_sha256": "732fdb4c54cfcf38dac48ccc20fb6978fa9db85a3b6e5b99f52ff977905cb066",
+  "kb_version": "kb-b08e7cfac2df",
+  "freeze_sha256": null,
+  "started_at": "2026-11-02T10:22:46.619744Z",
+  "case_ids": [
+    "PC01",
+    "PC03",
+    "PC05",
+    "PC07",
+    "PC09",
+    "PC11",
+    "PC13",
+    "PC15",
+    "PC17",
+    "PC19"
+  ],
+  "models": {
+    "adviser": {
+      "backend": "anthropic",
+      "client": "anthropic SDK, Messages API",
+      "model_id": "claude-haiku-5-5",
+      "settings": {
+        "model_id": "claude-haiku-5-5",
+        "max_tokens": 16000,
+        "effort": "medium",
+        "thinking": {
+          "type": "adaptive",
+          "display": "summarized"
+        },
+        "structured_output": true,
+        "max_retries": 2,
+        "timeout_s": 600.0,
+        "run_cap_usd": 2.0,
+        "total_cap_usd": 18.0,
+        "price_source": "Claude API reference bundled with Claude Code, model table cached 2026-10-06; to be confirmed on the live pricing page when the key is created",
+        "price": {
+          "input": 0.1,
+          "output": 0.5,
+          "long_input": 0.5,
+          "long_output": 2.5,
+          "long_threshold_input_tokens": 100000
+        }
+      },
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "code_version": "1c4c063",
+  "test_double": false,
+  "cost": {
+    "test_double": false,
+    "ledger_id": "20261102T052241-ddf9ca6a",
+    "calls": 10,
+    "input_tokens": 35933,
+    "output_tokens": 7749,
+    "cost_usd": 0.007468,
+    "reserved_usd": 0.0,
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.002384
+  },
+  "stopped": null,
+  "model_rejections": [],
+  "baseline_threshold": 0.35,
+  "code_tree_sha256": "ae7ea85a12b9469638f4f51265c49400dcd634f38a1a97ab57939327760cdc1c",
+  "digest": {
+    "count": 22,
+    "last_hash": "c02e09357f1094d3405237de16f20fc2267b07da3d1a215695a80aa6ec69534f"
+  }
+}

@@ -1,0 +1,750 @@
+{
+ "claims": {
+  "C1": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-5255b60b5e",
+   "doc_id": "U06",
+   "id": "C1",
+   "language": "en",
+   "locator": "Article 15",
+   "locator_found": "Article 15",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "Dubai Data may be used only for its intended purposes",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "a46cb1d996e32ed6f2e1eefe774b7b06f1dcfcc210d0bc498c5e16cc7eec4ada",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 10
+  },
+  "C10": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U12-2cc6c915a2",
+   "doc_id": "U12",
+   "id": "C10",
+   "language": "en",
+   "locator": "Article 17",
+   "locator_found": "Article 17",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "disclosing Personal Data (excluding Sensitive Personal Data) for a purpose other than that for which it is collected",
+   "raw": {
+    "path": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+   "status": "verified",
+   "text_sha256": "b61866593884f1508505bacd5e24eb83763b70eca8410c6bc5c1e18ab2aa78a2",
+   "text_sha256_ok": true,
+   "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)",
+   "words": 18
+  },
+  "C11": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U13-6fbb016671",
+   "doc_id": "U13",
+   "id": "C11",
+   "language": "en",
+   "locator": "Article 4",
+   "locator_found": "Article 4",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "The Register will be the only official source in the Emirate for the Dubai Population Data",
+   "raw": {
+    "path": "corpus_local/_raw/U13/dubai_ecres50_2024_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "5207b69fbf6e1dfd52eb7af6b35cea09c385f1afc014f5c72b9337eea7ef85c2",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Executive%20Council%20Resolution%20No.%20(50)%20of%202024%20Unified%20Population%20Register.html",
+   "status": "verified",
+   "text_sha256": "e9793130cb916e8b84be21124f349a0159f90ee10ccdbf9eeca6df9f1ee3f623",
+   "text_sha256_ok": true,
+   "title": "Executive Council Resolution No. (50) of 2024 Concerning the Unified Population Register of the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML (c 2024 Supreme Legislation Committee); issued in Dubai 28 August 2024; Arabic text prevails (footnote 1)",
+   "words": 16
+  },
+  "C12": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U13-84807e072e",
+   "doc_id": "U13",
+   "id": "C12",
+   "language": "en",
+   "locator": "Article 8",
+   "locator_found": "Article 8",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "apply without prejudice to the rules and scope of legal protection of Personal Data of Dubai Population prescribed by the above-mentioned Law No. (26) of 2015",
+   "raw": {
+    "path": "corpus_local/_raw/U13/dubai_ecres50_2024_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "5207b69fbf6e1dfd52eb7af6b35cea09c385f1afc014f5c72b9337eea7ef85c2",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Executive%20Council%20Resolution%20No.%20(50)%20of%202024%20Unified%20Population%20Register.html",
+   "status": "verified",
+   "text_sha256": "d1d677fd31b3936670978591b2b19d6958708169def32411517bd922300cb5cc",
+   "text_sha256_ok": true,
+   "title": "Executive Council Resolution No. (50) of 2024 Concerning the Unified Population Register of the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML (c 2024 Supreme Legislation Committee); issued in Dubai 28 August 2024; Arabic text prevails (footnote 1)",
+   "words": 26
+  },
+  "C13": {
+   "binding": false,
+   "check": "exact",
+   "chunk_id": "U15-90c0fe696e",
+   "doc_id": "U15",
+   "id": "C13",
+   "language": "en",
+   "locator": "Principle 3",
+   "locator_found": "Principle 3",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "should only be requested to provide the same data to the government once",
+   "raw": {
+    "path": "corpus_local/_raw/U15/smart_data_framework_part1_en.docx",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0b06a9b3dafa6563af607937a20cc6f836fcc281d68245344243f733a96e17f9",
+   "source_url": "https://assets.u.ae/api/public/content/45565063bf554b27b580c8df39f97550?v=cb016275",
+   "status": "verified",
+   "text_sha256": "a185b59e2ea62871db09fa11cabc7b30e51f78525755f2e0b3006453a674f0b3",
+   "text_sha256_ok": true,
+   "title": "The UAE Smart Data Framework, Part 1: Smart Data Principles and Standards (Version 2.0)",
+   "version": "Version 2.0, document date February 2019; listed on https://u.ae/en/resources/guidelines as 'UAE Smart Data Framework (EN) - Part 1 Principle and Standards', last updated 7 Dec 2022",
+   "words": 13
+  },
+  "C14": {
+   "binding": false,
+   "check": "exact",
+   "chunk_id": "U15-90c0fe696e",
+   "doc_id": "U15",
+   "id": "C14",
+   "language": "en",
+   "locator": "Principle 3",
+   "locator_found": "Principle 3",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "Data that has already been provided to one Government Entity - with the consent of the customer - should not have to be provided again",
+   "raw": {
+    "path": "corpus_local/_raw/U15/smart_data_framework_part1_en.docx",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0b06a9b3dafa6563af607937a20cc6f836fcc281d68245344243f733a96e17f9",
+   "source_url": "https://assets.u.ae/api/public/content/45565063bf554b27b580c8df39f97550?v=cb016275",
+   "status": "verified",
+   "text_sha256": "a185b59e2ea62871db09fa11cabc7b30e51f78525755f2e0b3006453a674f0b3",
+   "text_sha256_ok": true,
+   "title": "The UAE Smart Data Framework, Part 1: Smart Data Principles and Standards (Version 2.0)",
+   "version": "Version 2.0, document date February 2019; listed on https://u.ae/en/resources/guidelines as 'UAE Smart Data Framework (EN) - Part 1 Principle and Standards', last updated 7 Dec 2022",
+   "words": 25
+  },
+  "C15": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U08-36c0a1cc4a",
+   "doc_id": "U08",
+   "id": "C15",
+   "language": "ar",
+   "locator": "Article 5",
+   "locator_found": "Article 5",
+   "note": "Checked transcription of U08, not the official text layer (two-method merge, every disagreement resolved against the page image; docs/CORPUS_PROVENANCE.md); copied exactly. Author's reading, not an official translation: 'Government entities must comply with the laws and regulations on sharing or exchanging data'. The sentence (Article 5.3.1) continues (laws on information security and data privacy); that part is not quoted. Legal rank: the policy text does not state it; the knowledge base marks it binding on its wording only (corpus/APPLICABILITY.json), so it is used as a reading and never to state a duty.",
+   "provenance": "REPRODUCED",
+   "quote": "على الجهات الحكومية الالتزام بالقوانين واللوائح التنظيمية بشأن مشاركة أو تبادل البيانات",
+   "raw": {
+    "path": "corpus_local/_raw/U08/U08_checked_transcription.txt",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "c585b8686fac0e91c93f88fef4279d2ecf36a248ab4070a039ef6a456453f39e",
+   "source_url": "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66",
+   "status": "verified",
+   "text_sha256": "1d8433885e074700f1ae1e2ab5184afa531eaa5c1d5cf512e44efcaa0b81d1e5",
+   "text_sha256_ok": true,
+   "title": "سياسة \"المتعامل الرقمي والخدمة الحكومية الرقمية\" (Digital Customer and Digital Government Service Policy); checked transcription, not the official text layer",
+   "version": "cover 'March 2021'; last page 'First edition 2020, Dubai'; PDF created 2021-10-14; u.ae page https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/government-services-and-digital-transformation/digital-customer-and-digital-government-service-policy says 'Arabic, PDF, 435 KB'",
+   "words": 12
+  },
+  "C16": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U08-cb5a6f66d8",
+   "doc_id": "U08",
+   "id": "C16",
+   "language": "ar",
+   "locator": "Article 5",
+   "locator_found": "Article 5",
+   "note": "Checked transcription of U08, not the official text layer (two-method merge, every disagreement resolved against the page image; docs/CORPUS_PROVENANCE.md); copied exactly. Author's reading, not an official translation: 'Government entities must not ask customers for information the government already holds' (Article 5.1). The article goes on to qualify reducing requests for forms and documents with 'whenever possible' and to provide for sharing common customer data among entities under set conditions. Legal rank: the policy text does not state it; the knowledge base marks it binding on its wording only (corpus/APPLICABILITY.json), so it is used as a reading and never to state a duty.",
+   "provenance": "REPRODUCED",
+   "quote": "على الجهات الحكومية الالتزام بعدم طلب الحصول على المعلومات المتوفرة لدى الحكومة من المتعاملين",
+   "raw": {
+    "path": "corpus_local/_raw/U08/U08_checked_transcription.txt",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "c585b8686fac0e91c93f88fef4279d2ecf36a248ab4070a039ef6a456453f39e",
+   "source_url": "https://assets.u.ae/api/public/content/07d34b01c4d24744a7c5589292529a19?v=75a19e66",
+   "status": "verified",
+   "text_sha256": "e392d7249a766c995d01941fd7939ff4c8d5b52a200ddccb5236723c11f87f94",
+   "text_sha256_ok": true,
+   "title": "سياسة \"المتعامل الرقمي والخدمة الحكومية الرقمية\" (Digital Customer and Digital Government Service Policy); checked transcription, not the official text layer",
+   "version": "cover 'March 2021'; last page 'First edition 2020, Dubai'; PDF created 2021-10-14; u.ae page https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/policies/government-services-and-digital-transformation/digital-customer-and-digital-government-service-policy says 'Arabic, PDF, 435 KB'",
+   "words": 14
+  },
+  "C17": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "G3-e917ddf72d",
+   "doc_id": "G3",
+   "id": "C17",
+   "language": "en",
+   "locator": "Article 5",
+   "locator_found": "Article 5",
+   "note": "",
+   "provenance": "AUDITED",
+   "quote": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes",
+   "raw": {
+    "path": "corpus_local/_raw/G3/gdpr_cellar_32016R0679.xhtml",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "yes",
+   "source_sha256": "962539af03738bf552319ff4ce42d69e5f95a576307c4dfed7bf87e81b646b9d",
+   "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj (blocked to automated client; text obtained from Cellar: https://publications.europa.eu/resource/celex/32016R0679 with Accept: application/xhtml+xml)",
+   "status": "verified",
+   "text_sha256": "d99ce78590fe08f572184dadb26de101bb856bd93b7b4ced01b0adffc4a4d024",
+   "text_sha256_ok": true,
+   "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation): excerpt",
+   "version": "original OJ L 119, 4.5.2016 text (CONVEX 9.16.1); later corrigenda not checked",
+   "words": 20
+  },
+  "C18": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "G3-8f5ceac9be",
+   "doc_id": "G3",
+   "id": "C18",
+   "language": "en",
+   "locator": "Article 6",
+   "locator_found": "Article 6",
+   "note": "",
+   "provenance": "AUDITED",
+   "quote": "in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account",
+   "raw": {
+    "path": "corpus_local/_raw/G3/gdpr_cellar_32016R0679.xhtml",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "yes",
+   "source_sha256": "962539af03738bf552319ff4ce42d69e5f95a576307c4dfed7bf87e81b646b9d",
+   "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj (blocked to automated client; text obtained from Cellar: https://publications.europa.eu/resource/celex/32016R0679 with Accept: application/xhtml+xml)",
+   "status": "verified",
+   "text_sha256": "b5983b20f50db54e94cf9bb84cc862663599e2bd0ec53db69bc4962d427fc46d",
+   "text_sha256_ok": true,
+   "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation): excerpt",
+   "version": "original OJ L 119, 4.5.2016 text (CONVEX 9.16.1); later corrigenda not checked",
+   "words": 25
+  },
+  "C19": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "G8-7b103812a7",
+   "doc_id": "G8",
+   "id": "C19",
+   "language": "de",
+   "locator": "Section 67c",
+   "locator_found": "Section 67c",
+   "note": "German text, Section 67c(1) SGB X. English reading by the author: 'is carried out for the purposes for which the data were collected'.",
+   "provenance": "AUDITED",
+   "quote": "für die Zwecke erfolgt, für die die Daten erhoben worden sind",
+   "raw": {
+    "path": "corpus_local/_raw/G8/sgb_10_xml.zip",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "unknown",
+   "source_sha256": "292ef507a408a47db579e29d1970fa40b9d71fcc221f6957d57400f3e077b934",
+   "source_url": "https://www.gesetze-im-internet.de/sgb_10/ and https://www.gesetze-im-internet.de/vwvfg/ (XML downloads xml.zip)",
+   "status": "verified",
+   "text_sha256": "04c566c0a5a5e23c64446bfabef3d8403ffe2a5fb320d4a36d285bb79314931d",
+   "text_sha256_ok": true,
+   "title": "Germany: Sozialgesetzbuch Zehntes Buch (SGB X) Sections 31a, 35, 67c and Verwaltungsverfahrensgesetz (VwVfG) Sections 24, 35a, 37, 39 (fully automated administrative acts, reasons, purpose-bound reuse of social data): excerpt in German",
+   "version": "unofficial consolidated text built 2026-10-20 (SGB X, Stand: zuletzt geaendert durch Art. 2 G v. 15.10.2026 I Nr. 307) and VwVfG (Stand: zuletzt geaendert durch Art. 2 G v. 15.7.2024 I Nr. 236, with pending-amendment notes dated 2026 not yet processed by the publisher); official text is the Bundesgesetzblatt",
+   "words": 11
+  },
+  "C2": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-5255b60b5e",
+   "doc_id": "U06",
+   "id": "C2",
+   "language": "en",
+   "locator": "Article 15",
+   "locator_found": "Article 15",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "may only be disposed of by Data Providers or users in accordance with the provisions of this Law, the resolutions issued in pursuance hereof, and the legislation in force",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "a46cb1d996e32ed6f2e1eefe774b7b06f1dcfcc210d0bc498c5e16cc7eec4ada",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 29
+  },
+  "C20": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "G8-7b103812a7",
+   "doc_id": "G8",
+   "id": "C20",
+   "language": "de",
+   "locator": "Section 67c",
+   "locator_found": "Section 67c",
+   "note": "German text, Section 67c(2) SGB X. English reading by the author: 'may be stored, changed or used by the same controller for other purposes only if' (conditions follow). Same controller: transfers between bodies are governed elsewhere in SGB X and are not in the knowledge base.",
+   "provenance": "AUDITED",
+   "quote": "dürfen von demselben Verantwortlichen für andere Zwecke nur gespeichert, verändert oder genutzt werden, wenn",
+   "raw": {
+    "path": "corpus_local/_raw/G8/sgb_10_xml.zip",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "unknown",
+   "source_sha256": "292ef507a408a47db579e29d1970fa40b9d71fcc221f6957d57400f3e077b934",
+   "source_url": "https://www.gesetze-im-internet.de/sgb_10/ and https://www.gesetze-im-internet.de/vwvfg/ (XML downloads xml.zip)",
+   "status": "verified",
+   "text_sha256": "04c566c0a5a5e23c64446bfabef3d8403ffe2a5fb320d4a36d285bb79314931d",
+   "text_sha256_ok": true,
+   "title": "Germany: Sozialgesetzbuch Zehntes Buch (SGB X) Sections 31a, 35, 67c and Verwaltungsverfahrensgesetz (VwVfG) Sections 24, 35a, 37, 39 (fully automated administrative acts, reasons, purpose-bound reuse of social data): excerpt in German",
+   "version": "unofficial consolidated text built 2026-10-20 (SGB X, Stand: zuletzt geaendert durch Art. 2 G v. 15.10.2026 I Nr. 307) and VwVfG (Stand: zuletzt geaendert durch Art. 2 G v. 15.7.2024 I Nr. 236, with pending-amendment notes dated 2026 not yet processed by the publisher); official text is the Bundesgesetzblatt",
+   "words": 14
+  },
+  "C21": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-8f612b6e5a",
+   "doc_id": "U06",
+   "id": "C21",
+   "language": "en",
+   "locator": "Article 13",
+   "locator_found": "Article 13",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "take all the procedures required for the protection of the confidentiality and privacy of legally protected customer Data",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "1165bb6ce78fb3c60307ec643a422dfb2eb08dc5d758796abff6219d3c1d86a5",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 18
+  },
+  "C22": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U01-fd49b3401c",
+   "doc_id": "U01",
+   "id": "C22",
+   "language": "ar",
+   "locator": "Article 2",
+   "locator_found": "Article 2",
+   "note": "Arabic print edition, text layer copied as extracted (it has ligature-order defects). Author's reading, not an official translation: 'The provisions of this decree-law do not apply to: government data; government entities that control or process personal data'. The article lists further exclusions; they are not quoted.",
+   "provenance": "REPRODUCED",
+   "quote": "ال ترسي أحكام هذا املرسوم بقانون عىل ما يأيت: . البيانات الحكومية. . الجهات الحكومية املتحكمة بالبيانات الشخصية أو تلك التي تقوم مبعالجتها",
+   "raw": {
+    "path": "corpus_local/_raw/U01/pdpl_ar_u.ae.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "16741e65108040bc9ab5b1e982def19d75578205e446e7724dfcc0d8986b8441",
+   "source_url": "https://assets.u.ae/api/public/content/954629a06cc64fd887771ce3273d6154?v=21d88839",
+   "status": "verified",
+   "text_sha256": "276965d328f9c8108c368833dffc0dc2f9d52707d6f378226cf8a223218d2b8b",
+   "text_sha256_ok": true,
+   "title": "Federal Decree-Law No. (45) of 2021 on the Protection of Personal Data (Arabic print edition)",
+   "version": "issued 2021-09-20; Official Gazette 712 supplement 1, 2021-09-26; in force 2022-01-02 (per print edition p.3)",
+   "words": 23
+  },
+  "C3": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-86b7213ed7",
+   "doc_id": "U06",
+   "id": "C3",
+   "language": "en",
+   "locator": "Article 3",
+   "locator_found": "Article 3",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "Federal Government Entities which have any Data relating to the Emirate",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "692e03b7e9eee178b046b9553fa56ad9e74e9cb3a46c9b6f2b7fe8301954c367",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 11
+  },
+  "C4": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-e24b872bb7",
+   "doc_id": "U06",
+   "id": "C4",
+   "language": "en",
+   "locator": "Article 2",
+   "locator_found": "Article 2",
+   "note": "This is the definition of the term 'Dubai Data'. In the knowledge base text the definition precedes its term label (the extraction places table labels after the definitions, recorded in the corpus file header); the pairing was confirmed on the printed page of the source PDF (page 2 of 9) on 2026-11-02.",
+   "provenance": "REPRODUCED",
+   "quote": "The Data which is available to Data Providers and is related to the Emirate",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "414ff4b69551a8d196d9644cdb437591338b84b9483f2aa7eecd18701ccdaf6f",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 14
+  },
+  "C5": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U06-e24b872bb7",
+   "doc_id": "U06",
+   "id": "C5",
+   "language": "en",
+   "locator": "Article 2",
+   "locator_found": "Article 2",
+   "note": "This is the definition of the term 'Data Providers' (same layout caveat as C4, confirmed on page 2 of 9 of the source PDF).",
+   "provenance": "REPRODUCED",
+   "quote": "Federal Government Entities, Local Government Entities, and Persons determined by the Competent Entity",
+   "raw": {
+    "path": "corpus_local/_raw/U06/dubai_law26_2015_en.pdf",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "0050b8414ce6635cf3088556aef41c065cace091d28025821c157a2a3ffb39d8",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2015/Law%20No.%20(26)%20of%202015.pdf",
+   "status": "verified",
+   "text_sha256": "414ff4b69551a8d196d9644cdb437591338b84b9483f2aa7eecd18701ccdaf6f",
+   "text_sha256_ok": true,
+   "title": "Law No. (26) of 2015 Regulating Data Dissemination and Exchange in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal PDF (c 2016 Supreme Legislation Committee); issued in Dubai 16 October 2015; Arabic text prevails (footnote 1)",
+   "words": 13
+  },
+  "C6": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U12-10455c13c4",
+   "doc_id": "U12",
+   "id": "C6",
+   "language": "en",
+   "locator": "Article 1 [2]",
+   "locator_found": "Article 1 [2]",
+   "note": "This is the definition of 'Government Entity' (term first in this HTML source).",
+   "provenance": "REPRODUCED",
+   "quote": "Any Local Government Entity or Federal Government Entity that has in its possession Data relating to the Emirate",
+   "raw": {
+    "path": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+   "status": "verified",
+   "text_sha256": "0a618a2cd39bdf99f944af3a618d9312f6a4f3cba0ea2afb9dec2c7f0e3416ab",
+   "text_sha256_ok": true,
+   "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)",
+   "words": 18
+  },
+  "C7": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U12-c8dae5da56",
+   "doc_id": "U12",
+   "id": "C7",
+   "language": "en",
+   "locator": "Article 3 [2]",
+   "locator_found": "Article 3 [2]",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "Federal Government Entities which have in their possession any Data relating to the Emirate",
+   "raw": {
+    "path": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+   "status": "verified",
+   "text_sha256": "abe986b44947b960fc303f3461a5ae629075c1e6200b9d4348649069ef795065",
+   "text_sha256_ok": true,
+   "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)",
+   "words": 14
+  },
+  "C8": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U12-9032fac242",
+   "doc_id": "U12",
+   "id": "C8",
+   "language": "en",
+   "locator": "Article 23",
+   "locator_found": "Article 23",
+   "note": "",
+   "provenance": "REPRODUCED",
+   "quote": "seek the consent of individuals and Private Entities to use, store, process, and exchange with other Government Entities in the Emirate their Personal Data",
+   "raw": {
+    "path": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+   "status": "verified",
+   "text_sha256": "d629f66afa5f3e6f2ec79271dd319f65f4ad791167316c307228b05f6284740b",
+   "text_sha256_ok": true,
+   "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)",
+   "words": 24
+  },
+  "C9": {
+   "binding": true,
+   "check": "exact",
+   "chunk_id": "U12-a2ec4aff65",
+   "doc_id": "U12",
+   "id": "C9",
+   "language": "en",
+   "locator": "Article 23",
+   "locator_found": "Article 23",
+   "note": "Article 23(4)(b), the principle labelled 'Purpose'; the label sits at the end of the previous passage of the same article.",
+   "provenance": "REPRODUCED",
+   "quote": "by using the collected Data for specific and explicitly stated purposes",
+   "raw": {
+    "path": "corpus_local/_raw/U12/dubai_res2_2017_en.html",
+    "present": true,
+    "sha256_ok": true
+   },
+   "republish": "link_only",
+   "source_sha256": "ae95f6f3969662d3a493054bb160f8b31f1292370649b48a2687cc5e366bf82f",
+   "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Resolution%20No.%20(2)%20of%202017.html",
+   "status": "verified",
+   "text_sha256": "04fbf879b0b1b8eb296c313cdc51cbfcb54998bac2ec855460536198e25cbabd",
+   "text_sha256_ok": true,
+   "title": "Resolution No. (2) of 2017 Approving the Policies Document on Classification, Dissemination, Exchange, and Protection of Data in the Emirate of Dubai",
+   "version": "English version, Dubai Legislation Portal HTML; issued in Dubai 26 October 2017 on Board approval of the same date; Arabic text prevails (footnote 1)",
+   "words": 11
+  }
+ },
+ "counts": {
+  "claims": 22,
+  "claims_verified": 22,
+  "findings": 11,
+  "findings_supported": 11
+ },
+ "findings": {
+  "F1": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F10": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F11": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F2": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F3": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F4": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F5": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F6": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F7": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F8": {
+   "reason": "",
+   "status": "supported"
+  },
+  "F9": {
+   "reason": "",
+   "status": "supported"
+  }
+ },
+ "id": "S01",
+ "kb_version": "kb-6b62e9ecc91c",
+ "searches": {
+  "S1": {
+   "collections": [
+    "kb_uae"
+   ],
+   "id": "S1",
+   "kb_version": "kb-6b62e9ecc91c",
+   "query": "records may be used only for the purpose for which they were collected",
+   "retriever": {
+    "bilingual": {
+     "arabic_key": "letter-set-v1",
+     "arabic_slots": 2,
+     "map_sha256": "94367ab6bcf7d9d7ae22f0c2a8ffa8569da4c2e388d443e9ee6ce317f46dc7aa"
+    },
+    "collections": [
+     "kb_uae"
+    ],
+    "doc_ids": null,
+    "k": 5,
+    "kb_version": "kb-6b62e9ecc91c",
+    "mode": "hybrid",
+    "rrf_k": 60,
+    "w_bm25": 1.0,
+    "w_vec": 1.0
+   },
+   "top5": [
+    "U06 Article 15",
+    "U12 Article 23",
+    "U01EN Article 5",
+    "U11 Article 17",
+    "U01EN Article 8"
+   ]
+  },
+  "S2": {
+   "collections": [
+    "kb_uae"
+   ],
+   "id": "S2",
+   "kb_version": "kb-6b62e9ecc91c",
+   "query": "federal government entity holding data relating to the emirate",
+   "retriever": {
+    "bilingual": {
+     "arabic_key": "letter-set-v1",
+     "arabic_slots": 2,
+     "map_sha256": "94367ab6bcf7d9d7ae22f0c2a8ffa8569da4c2e388d443e9ee6ce317f46dc7aa"
+    },
+    "collections": [
+     "kb_uae"
+    ],
+    "doc_ids": null,
+    "k": 5,
+    "kb_version": "kb-6b62e9ecc91c",
+    "mode": "hybrid",
+    "rrf_k": 60,
+    "w_bm25": 1.0,
+    "w_vec": 1.0
+   },
+   "top5": [
+    "U06 Article 3",
+    "U12 Article 1 [2]",
+    "U12 Article 3 [2]",
+    "U06 Article 12",
+    "U12 Article 1 [2]"
+   ]
+  },
+  "S3": {
+   "collections": [
+    "kb_uae"
+   ],
+   "id": "S3",
+   "kb_version": "kb-6b62e9ecc91c",
+   "query": "once-only request for the same data from a customer by government entities",
+   "retriever": {
+    "bilingual": {
+     "arabic_key": "letter-set-v1",
+     "arabic_slots": 2,
+     "map_sha256": "94367ab6bcf7d9d7ae22f0c2a8ffa8569da4c2e388d443e9ee6ce317f46dc7aa"
+    },
+    "collections": [
+     "kb_uae"
+    ],
+    "doc_ids": null,
+    "k": 5,
+    "kb_version": "kb-6b62e9ecc91c",
+    "mode": "hybrid",
+    "rrf_k": 60,
+    "w_bm25": 1.0,
+    "w_vec": 1.0
+   },
+   "top5": [
+    "U15 Principle 3",
+    "U08 Article 5",
+    "U16 Section 5",
+    "U08 Article 1",
+    "U16 Section 5"
+   ]
+  }
+ }
+}

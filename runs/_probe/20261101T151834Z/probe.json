@@ -1,0 +1,41 @@
+{
+  "model_id": "claude-haiku-5-5",
+  "attempts": [
+    {
+      "variant": "as configured",
+      "result": "accepted",
+      "call": {
+        "model_id": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "input_tokens": 222,
+          "output_tokens": 9,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 2.67e-05,
+        "effort": "medium",
+        "reasoning_summary": {
+          "label": "no summary"
+        },
+        "rejection": null,
+        "retries": [],
+        "request_id": "req_011CgcS1BwxVpNmyeWFfNQZ6",
+        "raw_text_sha256": "6bc0da1f42f96fc37b8bd7ed20ba57606d2a0da5cda2b135c7854fbdc985b8a3"
+      }
+    }
+  ],
+  "accepted": "as configured",
+  "test_double": false,
+  "cost": {
+    "test_double": false,
+    "calls": 1,
+    "input_tokens": 222,
+    "output_tokens": 9,
+    "cost_usd": 2.7e-05,
+    "run_cap_usd": 2.0,
+    "total_cap_usd": 18.0,
+    "prior_spent_usd": 0.0
+  },
+  "code_version": "3b873cb"
+}

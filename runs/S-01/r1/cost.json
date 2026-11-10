@@ -1,0 +1,14 @@
+{
+  "test_double": false,
+  "calls": 6,
+  "input_tokens": 21744,
+  "output_tokens": 7191,
+  "cost_usd": 0.00577,
+  "reserved_usd": 0.0,
+  "ledger_ids": [
+    "20261110T042557-b6c15c82"
+  ],
+  "run_cap_usd": 2.0,
+  "total_cap_usd": 18.0,
+  "prior_spent_usd": 0.035755
+}
