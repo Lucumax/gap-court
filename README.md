@@ -6,6 +6,8 @@ Independent entry. No affiliation with or endorsement by ITU. The sources are pu
 
 Status: prototype, submitted entry. Live session on 2026-11-10 with frozen labels: on the held-out cases, each run once, the full system agreed with the approved label in 7 of 8 cases and the retrieval-plus-abstain baseline in 2 of 8 (`results/heldout/results.md`). This is a small pilot with author-made cases and one reviewer; it does not measure legal correctness. In the scenario runs every S-01, S-02 and S-04 step was ruled ESCALATE, so the DENY, ALLOW and scope rulings the labels expect were not reached. All saved runs together cost USD 0.0566 (`gapcourt cost`). Every report number comes from recorded work: `gapcourt report-fill` tags it measured (from a model run) or offline (from checks without model calls). Known limitations are listed in `NOT_DONE.md`.
 
+The gaps it found, with links to each case record and trace: [`docs/GAP_SUMMARY.md`](docs/GAP_SUMMARY.md).
+
 ## What it does
 
 - Ingests public instruments into a versioned knowledge base with stable chunk ids and article and page locators (`src/gapcourt/corpus.py`, `chunking.py`, `index.py`).
